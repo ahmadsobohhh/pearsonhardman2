@@ -40,7 +40,7 @@ const FrameComponent6 = ({ className = "" }) => {
               className="arrow-right-31"
               loading="lazy"
               alt=""
-              src="/arrow--right-3.svg"
+              src="./pearsonhardman2/arrow--right-3.svg"
             />
           </div>
           <img className="frame-child2" alt="" src="./pearsonhardman2/vector-3-1.svg" />

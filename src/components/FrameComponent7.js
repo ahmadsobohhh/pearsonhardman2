@@ -21,16 +21,16 @@ const FrameComponent7 = ({ className = "" }) => {
           </div>
         </div>
         <img className="frame-item" loading="lazy" alt="" src="./pearsonhardman2/vector-3.svg" />
-        <FrameComponent8 group2="/group-2.svg" miguxian="Miguxian" />
+        <FrameComponent8 group2="./pearsonhardman2/group-2.svg" miguxian="Miguxian" />
         <img
           className="frame-inner"
           loading="lazy"
           alt=""
           src="./pearsonhardman2/vector-4.svg"
         />
-        <FrameComponent8 group2="/jeninalyn.svg" miguxian="Jeninayln" />
+        <FrameComponent8 group2="./pearsonhardman2/jeninalyn.svg" miguxian="Jeninayln" />
         <img className="vector-icon" alt="" src="./pearsonhardman2/vector-5.svg" />
-        <FrameComponent8 group2="/superanzo.svg" miguxian="Superanzo" />
+        <FrameComponent8 group2="./pearsonhardman2/superanzo.svg" miguxian="Superanzo" />
       </div>
     </div>
   );

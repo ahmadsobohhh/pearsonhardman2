@@ -45,11 +45,11 @@ const Lawyers = ({ className = "" }) => {
           </div>
           <div className="news-grid">
             <NewsItems
-              maskGroup="/mask-group-9@2x.png"
+              maskGroup="./pearsonhardman2/mask-group-9@2x.png"
               nadaGeomorgant="Nada Geoant"
             />
             <NewsItems
-              maskGroup="/mask-group-10@2x.png"
+              maskGroup="./pearsonhardman2/mask-group-10@2x.png"
               nadaGeomorgant="Desy Willy"
               propHeight="602px"
             />
