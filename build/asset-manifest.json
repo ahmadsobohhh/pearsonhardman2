@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/pearsonhardman2/static/css/main.c8154595.css",
+    "main.js": "/pearsonhardman2/static/js/main.afdc86d6.js",
+    "static/js/453.de9938dc.chunk.js": "/pearsonhardman2/static/js/453.de9938dc.chunk.js",
+    "index.html": "/pearsonhardman2/index.html",
+    "main.c8154595.css.map": "/pearsonhardman2/static/css/main.c8154595.css.map",
+    "main.afdc86d6.js.map": "/pearsonhardman2/static/js/main.afdc86d6.js.map",
+    "453.de9938dc.chunk.js.map": "/pearsonhardman2/static/js/453.de9938dc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c8154595.css",
+    "static/js/main.afdc86d6.js"
+  ]
+}
