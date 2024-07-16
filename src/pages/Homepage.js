@@ -1,4 +1,3 @@
-import FrameComponent10 from "../components/FrameComponent10";
 import FrameComponent9 from "../components/FrameComponent9";
 import FrameComponent7 from "../components/FrameComponent7";
 import FrameComponent6 from "../components/FrameComponent6";

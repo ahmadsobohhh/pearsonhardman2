@@ -1,6 +1,5 @@
 import Hero from "../components/Hero";
 import FrameComponent1 from "../components/FrameComponent1";
-import Footer from "../components/Footer";
 import "./ContactUs.css";
 
 const ContactUs = () => {
