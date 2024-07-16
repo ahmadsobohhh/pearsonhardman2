@@ -16,7 +16,7 @@ const NewsItems = ({
 
   return (
     <div className={`news-items ${className}`} style={newsItemsStyle}>
-      <img className="mask-group-icon8" loading="lazy" alt="" src={"/maskGroup"} />
+      <img className="mask-group-icon8" loading="lazy" alt="" src={"./pearsonhardman2/maskGroup"} />
       <div className="news-details">
         <div className="news-names-positions">
           <div className="nada-geomorgant">{nadaGeomorgant}</div>

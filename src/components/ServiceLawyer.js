@@ -8,7 +8,7 @@ const ServiceLawyer = ({ className = "", services, chooseServices }) => {
       <div className="service-lawyer-dropdowns">
         <div className="service-lawyer-options">
           <div className="choose-services">{chooseServices}</div>
-          <img className="arrow-down-2" alt="" src="/arrow--down-2.svg" />
+          <img className="arrow-down-2" alt="" src="./pearsonhardman2/arrow--down-2.svg" />
         </div>
       </div>
     </div>

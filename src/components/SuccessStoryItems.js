@@ -14,10 +14,10 @@ const SuccessStoryItems = ({ className = "", maskGroup, propPadding }) => {
       className={`success-story-items ${className}`}
       style={successStoryItemsStyle}
     >
-      <img className="mask-group-icon9" loading="lazy" alt="" src={"/maskGroup"} />
+      <img className="mask-group-icon9" loading="lazy" alt="" src={"./pearsonhardman2/maskGroup"} />
       <div className="story-content">
         <div className="cases-have-been">{`7 Cases Have Been Success `}</div>
-        <img className="story-icon" loading="lazy" alt="" src="/vector-8.svg" />
+        <img className="story-icon" loading="lazy" alt="" src="./pearsonhardman2/vector-8.svg" />
         <div className="lorem-ipsum-dolor4">
           Click to see this ground breaking case!
         </div>

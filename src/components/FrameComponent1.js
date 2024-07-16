@@ -46,7 +46,7 @@ const FrameComponent1 = ({ className = "" }) => {
               className="map-maker-ottawa-ontario-ca"
               loading="lazy"
               alt=""
-              src="/-map-maker-ottawa-ontario-canada-aubergine@2x.png"
+              src="./pearsonhardman2/-map-maker-ottawa-ontario-canada-aubergine@2x.png"
             />
           </div>
         </div>
@@ -56,7 +56,7 @@ const FrameComponent1 = ({ className = "" }) => {
               className="call-icon1"
               loading="lazy"
               alt=""
-              src="/call1.svg"
+              src="./pearsonhardman2/call1.svg"
             />
             <div className="contact-values-wrapper">
               <div className="contact-values">+613 890 7232</div>
@@ -67,7 +67,7 @@ const FrameComponent1 = ({ className = "" }) => {
               className="location-icon1"
               loading="lazy"
               alt=""
-              src="/location1.svg"
+              src="./pearsonhardman2/location1.svg"
             />
             <div className="uottawa-rd-on-k2r-0a1-wrapper">
               <div className="uottawa-rd-on">+7889 uOttawa Rd, ON K2R 0A1</div>
@@ -78,7 +78,7 @@ const FrameComponent1 = ({ className = "" }) => {
               className="message-icon1"
               loading="lazy"
               alt=""
-              src="/message1.svg"
+              src="./pearsonhardman2/message1.svg"
             />
             <div className="pearsonhardmandomaincom-wrapper">
               <div className="pearsonhardmandomaincom">
@@ -87,7 +87,7 @@ const FrameComponent1 = ({ className = "" }) => {
             </div>
           </div>
           <div className="contact-info6">
-            <img className="time-square-icon" alt="" src="/time-square.svg" />
+            <img className="time-square-icon" alt="" src="./pearsonhardman2/time-square.svg" />
             <div className="am-0900-pm-wrapper">
               <div className="am-0900">07.00 am - 09.00 pm</div>
             </div>

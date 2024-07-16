@@ -19,7 +19,7 @@ const FrameComponent3 = ({ className = "" }) => {
                 className="mask-group-icon5"
                 loading="lazy"
                 alt=""
-                src="/mask-group-5@2x.png"
+                src="./pearsonhardman2/mask-group-5@2x.png"
               />
               <FrameComponent4 />
             </div>
@@ -31,14 +31,14 @@ const FrameComponent3 = ({ className = "" }) => {
                 className="arrow-right-34"
                 loading="lazy"
                 alt=""
-                src="/arrow--right-3-4.svg"
+                src="./pearsonhardman2/arrow--right-3-4.svg"
               />
             </div>
             <img
               className="mask-group-icon6"
               loading="lazy"
               alt=""
-              src="/mask-group-6@2x.png"
+              src="./pearsonhardman2/mask-group-6@2x.png"
             />
             <div className="duplicate-case-container">
               <FrameComponent4 propWidth="unset" propFlex="1" />
