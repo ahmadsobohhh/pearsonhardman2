@@ -1,0 +1,115 @@
+.cta-child {
+  width: 1920px;
+  height: 533px;
+  position: relative;
+  background-color: var(--color1);
+  display: none;
+  max-width: 100%;
+}
+.we-help-you {
+  position: relative;
+  text-transform: capitalize;
+  z-index: 1;
+}
+.lorem-ipsum-dolor2 {
+  width: 1062px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 1;
+}
+.lorem-ipsum-dolor-sit-amet-con-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--body1-regular-size);
+  font-family: var(--body1-regular);
+}
+.we-help-you-with-quality-legal-parent {
+  width: 1237px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-31xl);
+  max-width: 100%;
+}
+.get-started1 {
+  position: relative;
+  font-size: var(--h6-size);
+  font-family: var(--h6);
+  color: var(--color2);
+  text-align: center;
+  display: inline-block;
+  min-width: 121px;
+}
+.get-started-wrapper {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs) var(--padding-45xl);
+  background-color: var(--color4);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  white-space: nowrap;
+  z-index: 1;
+}
+.get-started-wrapper:hover {
+  background-color: var(--color-darkolivegreen);
+}
+.cta,
+.cta-inner {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.cta-inner {
+  width: 1238px;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-12xs) 0 0;
+}
+.cta {
+  align-self: stretch;
+  background-color: var(--color1);
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-84xl) var(--padding-xl) var(--padding-83xl);
+  gap: var(--gap-61xl);
+  text-align: left;
+  font-size: var(--h1-size);
+  color: var(--color2);
+  font-family: var(--h6);
+}
+@media screen and (max-width: 850px) {
+  .we-help-you {
+    font-size: var(--font-size-39xl);
+  }
+  .we-help-you-with-quality-legal-parent {
+    gap: var(--gap-6xl);
+  }
+  .cta {
+    gap: var(--gap-21xl);
+    padding-top: var(--padding-48xl);
+    padding-bottom: var(--padding-47xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .we-help-you {
+    font-size: var(--font-size-24xl);
+  }
+  .cta {
+    gap: var(--gap-xl);
+  }
+}

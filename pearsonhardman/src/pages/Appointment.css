@@ -1,0 +1,23 @@
+.appointment {
+  width: 100%;
+  position: relative;
+  background-color: var(--color);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-161xl);
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1325px) {
+  .appointment {
+    gap: var(--gap-71xl);
+  }
+}
+@media screen and (max-width: 900px) {
+  .appointment {
+    gap: var(--gap-26xl);
+  }
+}

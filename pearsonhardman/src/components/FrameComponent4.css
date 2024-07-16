@@ -1,0 +1,58 @@
+.lorem-ipsum-dolor3,
+.the-case-of {
+  align-self: stretch;
+  position: relative;
+}
+.lorem-ipsum-dolor3 {
+  font-size: var(--body1-regular-size);
+  font-family: var(--body1-regular);
+}
+.see-detail1 {
+  position: relative;
+  font-size: var(--h6-size);
+  font-family: var(--h6);
+  color: var(--color2);
+  text-align: center;
+  display: inline-block;
+  min-width: 103px;
+}
+.see-detail-container,
+.the-case-of-william-accused-co-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.see-detail-container {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs) var(--padding-54xl);
+  background-color: var(--color1);
+  flex-direction: row;
+  white-space: nowrap;
+}
+.see-detail-container:hover {
+  background-color: var(--color-slategray);
+}
+.the-case-of-william-accused-co-parent {
+  width: 712px;
+  flex-direction: column;
+  gap: var(--gap-31xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--h4-size);
+  color: var(--color3);
+  font-family: var(--h6);
+}
+@media screen and (max-width: 850px) {
+  .the-case-of {
+    font-size: var(--font-size-16xl);
+  }
+  .the-case-of-william-accused-co-parent {
+    gap: var(--gap-6xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .the-case-of {
+    font-size: var(--font-size-7xl);
+  }
+}

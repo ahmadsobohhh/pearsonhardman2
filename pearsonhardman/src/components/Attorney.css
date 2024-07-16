@@ -1,0 +1,254 @@
+.mask-group-icon7 {
+  width: 646px;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  max-width: 100%;
+}
+.years-has-been {
+  flex: 1;
+  position: relative;
+  text-transform: capitalize;
+  display: inline-block;
+  max-width: 100%;
+}
+.years-experience {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-mini) 0 var(--padding-base);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.experience-icon {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.tick-square-icon {
+  width: 32px;
+  height: 32px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.stats-icons {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) 0 0;
+}
+.success-handled-cases {
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.stats-row {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.tick-square-icon1 {
+  width: 32px;
+  height: 32px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.tick-square-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) 0 0;
+}
+.responsible-raised {
+  position: relative;
+}
+.stats-row1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.tick-square-icon2 {
+  width: 32px;
+  height: 32px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.tick-square-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) 0 0;
+}
+.success-handled-cases1 {
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.stats-row2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.tick-square-icon3 {
+  width: 32px;
+  height: 32px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.tick-square-frame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) 0 0;
+}
+.responsible-raised1 {
+  position: relative;
+}
+.stats-row3 {
+  flex-direction: row;
+  gap: var(--gap-xl);
+}
+.stats,
+.stats-container,
+.stats-row3 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.stats-container {
+  flex-direction: column;
+  gap: var(--gap-11xl);
+}
+.stats {
+  flex-direction: row;
+  padding: 0 var(--padding-base);
+  box-sizing: border-box;
+  font-size: var(--h5-size);
+}
+.years-experience-parent {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-40xl-5);
+}
+.attorney,
+.attorney-container,
+.attorney-content,
+.years-experience-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.attorney-content {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-41xl) 0 0;
+  box-sizing: border-box;
+  min-width: 534px;
+}
+.attorney,
+.attorney-container {
+  flex-direction: row;
+}
+.attorney-container {
+  width: 1596px;
+  gap: var(--gap-110xl);
+}
+.attorney {
+  align-self: stretch;
+  padding: 0 0 var(--padding-16xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--h1-size);
+  color: var(--color3);
+  font-family: var(--h6);
+}
+@media screen and (max-width: 1525px) {
+  .mask-group-icon7 {
+    flex: 1;
+  }
+  .attorney-container {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1225px) {
+  .attorney-container {
+    gap: var(--gap-45xl);
+  }
+}
+@media screen and (max-width: 850px) {
+  .years-has-been {
+    font-size: var(--font-size-39xl);
+  }
+  .responsible-raised,
+  .responsible-raised1,
+  .success-handled-cases,
+  .success-handled-cases1 {
+    font-size: var(--font-size-7xl);
+  }
+  .attorney-content {
+    padding-top: var(--padding-20xl);
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+  .attorney-container {
+    gap: var(--gap-13xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .years-has-been {
+    font-size: var(--font-size-24xl);
+  }
+  .success-handled-cases {
+    font-size: var(--font-size-lgi);
+  }
+  .stats-row {
+    flex-wrap: wrap;
+  }
+  .responsible-raised {
+    font-size: var(--font-size-lgi);
+  }
+  .stats-row1 {
+    flex-wrap: wrap;
+  }
+  .success-handled-cases1 {
+    font-size: var(--font-size-lgi);
+  }
+  .stats-row2 {
+    flex-wrap: wrap;
+  }
+  .responsible-raised1 {
+    font-size: var(--font-size-lgi);
+  }
+  .stats-row3 {
+    flex-wrap: wrap;
+  }
+  .years-experience-parent {
+    gap: var(--gap-11xl);
+  }
+  .attorney-container {
+    gap: var(--gap-base);
+  }
+}

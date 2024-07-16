@@ -1,0 +1,326 @@
+.lawyer2,
+.professional-lawyers-and {
+  position: relative;
+  display: inline-block;
+  min-width: 79px;
+}
+.professional-lawyers-and {
+  width: 786px;
+  text-transform: capitalize;
+  flex-shrink: 0;
+  min-width: 786px;
+  max-width: 100%;
+}
+.lorem-ipsum-dolor5 {
+  align-self: stretch;
+  position: relative;
+}
+.lawyers-more {
+  width: 455px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-57xl) 0 0;
+  box-sizing: border-box;
+  min-width: 455px;
+  max-width: 100%;
+  font-size: var(--body1-regular-size);
+  font-family: var(--body1-regular);
+}
+.lawyers-container,
+.lawyers-description {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+  font-size: var(--h1-size);
+}
+.lawyers-container {
+  flex-direction: column;
+  justify-content: flex-start;
+  font-size: var(--h6-size);
+}
+.mask-group-icon10 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+}
+.jeniffer-smith {
+  position: relative;
+}
+.senior-business-lawyer1 {
+  position: relative;
+  line-height: 23.5px;
+}
+.lawyer-name-container,
+.lawyer-position-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.lawyer-position-container {
+  flex-direction: row;
+  padding: 0 var(--padding-21xl) 0 var(--padding-20xl);
+  font-size: var(--body1-regular-size);
+  font-family: var(--body1-regular);
+}
+.lawyer-name-container {
+  flex-direction: column;
+  gap: var(--gap-xl);
+}
+.news-title {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.news {
+  position: relative;
+  font-size: var(--h6-size);
+  display: inline-block;
+  min-width: 56px;
+}
+.news-title-parent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-96xl);
+  max-width: 100%;
+}
+.news-content-inner {
+  width: 349px;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 0 var(--padding-4xs);
+  box-sizing: border-box;
+}
+.news-container,
+.news-content,
+.news-content-inner,
+.news-grid {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.news-content {
+  height: 750px;
+  width: 406px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-61xl);
+  min-width: 406px;
+}
+.news-container,
+.news-grid {
+  flex-direction: row;
+}
+.news-grid {
+  flex: 1;
+  justify-content: space-between;
+  min-width: 649px;
+  gap: var(--gap-xl);
+}
+.news-container {
+  width: 1594px;
+  justify-content: flex-start;
+  gap: var(--gap-170xl);
+}
+.and-blog-from,
+.the-latest-news {
+  margin: 0;
+}
+.the-latest-news-container {
+  width: 1116px;
+  position: relative;
+  text-transform: capitalize;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.see-more1 {
+  position: relative;
+  display: inline-block;
+  min-width: 99px;
+}
+.arrow-right-35 {
+  height: 32px;
+  width: 32px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.news-more-link,
+.news-more-link-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.news-more-link-container {
+  flex-direction: row;
+  gap: var(--gap-xl);
+}
+.news-more-link {
+  flex-direction: column;
+  padding: var(--padding-37xl) 0 0;
+  text-align: center;
+  font-size: var(--h6-size);
+}
+.news-more-content {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.news-container-parent,
+.news-more {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.news-more {
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-4xs);
+  box-sizing: border-box;
+  font-size: var(--h1-size);
+}
+.news-container-parent {
+  flex-direction: column;
+  gap: var(--gap-xl);
+}
+.success-stories-container {
+  flex: 1;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--gap-131xl);
+}
+.lawyers,
+.success-stories,
+.success-stories-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.success-stories {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-smi) 0 var(--padding-4xs);
+  box-sizing: border-box;
+}
+.lawyers {
+  width: 1614px;
+  flex-direction: column;
+  gap: var(--gap-61xl);
+  text-align: left;
+  font-size: var(--h4-size);
+  color: var(--color3);
+  font-family: var(--h6);
+}
+@media screen and (max-width: 1525px) {
+  .lawyers-more,
+  .professional-lawyers-and {
+    flex: 1;
+  }
+  .lawyers-description {
+    flex-wrap: wrap;
+  }
+  .news-content {
+    flex: 1;
+  }
+  .news-container,
+  .news-more-content {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1225px) {
+  .professional-lawyers-and {
+    min-width: 100%;
+  }
+  .news-grid {
+    flex-wrap: wrap;
+  }
+  .news-container {
+    gap: var(--gap-75xl);
+  }
+  .success-stories-container {
+    gap: var(--gap-56xl);
+  }
+}
+@media screen and (max-width: 850px) {
+  .professional-lawyers-and {
+    font-size: var(--font-size-39xl);
+  }
+  .lawyers-more {
+    min-width: 100%;
+  }
+  .jeniffer-smith {
+    font-size: var(--font-size-16xl);
+  }
+  .news-content,
+  .news-grid {
+    min-width: 100%;
+  }
+  .news-container {
+    gap: var(--gap-28xl);
+  }
+  .the-latest-news-container {
+    font-size: var(--font-size-39xl);
+  }
+  .success-stories-container {
+    gap: var(--gap-18xl);
+  }
+  .lawyers {
+    gap: var(--gap-21xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .lawyer2 {
+    font-size: var(--font-size-lgi);
+  }
+  .professional-lawyers-and {
+    font-size: var(--font-size-24xl);
+  }
+  .jeniffer-smith {
+    font-size: var(--font-size-7xl);
+  }
+  .news {
+    font-size: var(--font-size-lgi);
+  }
+  .news-title-parent {
+    gap: var(--gap-38xl);
+  }
+  .news-content {
+    gap: var(--gap-21xl);
+  }
+  .news-container {
+    gap: var(--gap-5xl);
+  }
+  .the-latest-news-container {
+    font-size: var(--font-size-24xl);
+  }
+  .see-more1 {
+    font-size: var(--font-size-lgi);
+  }
+  .success-stories-container {
+    gap: var(--gap-lgi);
+  }
+  .lawyers {
+    gap: var(--gap-xl);
+  }
+}

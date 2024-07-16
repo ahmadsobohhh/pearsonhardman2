@@ -1,0 +1,258 @@
+.mask-group-icon {
+  height: 736px;
+  width: 1143px;
+  position: absolute;
+  margin: 0 !important;
+  right: -551px;
+  bottom: -256px;
+  object-fit: cover;
+}
+.pearson-hardman {
+  color: var(--color4);
+}
+.uphold-your-justice-container {
+  flex: 1;
+  position: relative;
+  line-height: 120px;
+  text-transform: capitalize;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.mask-group-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  max-width: 100%;
+}
+.get-started {
+  position: relative;
+  font-size: var(--h6-size);
+  font-family: var(--h6);
+  color: var(--color2);
+  text-align: center;
+  display: inline-block;
+  min-width: 119px;
+}
+.s {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs) var(--padding-46xl);
+  background-color: var(--color1);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+.s:hover,
+.see-detail-wrapper:hover {
+  background-color: var(--color-slategray);
+}
+.frame-parent,
+.homepage-1-inner {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frame-parent {
+  width: 1035px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 120px;
+}
+.homepage-1-inner {
+  width: 1379px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-64xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 100px;
+  color: var(--color3);
+  font-family: var(--h6);
+}
+.blank-line,
+.cum-mattis-mollis,
+.lorem-ipsum-dolor {
+  margin: 0;
+}
+.lorem-ipsum-dolor-container {
+  align-self: stretch;
+  position: relative;
+}
+.see-detail {
+  position: relative;
+  font-size: var(--h6-size);
+  font-family: var(--h6);
+  color: var(--color2);
+  text-align: center;
+  display: inline-block;
+  min-width: 103px;
+}
+.frame-container,
+.see-detail-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.see-detail-wrapper {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs) var(--padding-54xl);
+  background-color: var(--color1);
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+.frame-container {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+}
+.lorem-ipsum-dolor-sit-amet-con-parent {
+  width: 1412px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 46px;
+}
+.frame-group,
+.frame-wrapper,
+.lorem-ipsum-dolor-sit-amet-con-parent {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frame-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 64.5px;
+  box-sizing: border-box;
+}
+.frame-group {
+  width: 1596px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 115.5px;
+}
+.homepage-1-child {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--body1-regular-size);
+  color: var(--color3);
+  font-family: var(--body1-regular);
+}
+.duplicate-stories,
+.duplicate-stories-container,
+.homepage-1-child {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.duplicate-stories-container {
+  flex: 1;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 152px;
+}
+.duplicate-stories {
+  width: 1618px;
+  justify-content: flex-end;
+  padding: 0 var(--padding-smi);
+  box-sizing: border-box;
+}
+.frame-div {
+  width: 1653px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-61xl);
+  max-width: 100%;
+}
+.frame-section,
+.homepage-1 {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.frame-section {
+  width: 1881px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  max-width: 100%;
+}
+.homepage-1 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color);
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-61xl) 0 817px;
+  gap: var(--gap-161xl);
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1225px) {
+  .frame-parent {
+    gap: var(--gap-41xl);
+  }
+  .duplicate-stories-container {
+    gap: var(--gap-57xl);
+  }
+  .homepage-1 {
+    gap: var(--gap-71xl);
+  }
+}
+@media screen and (max-width: 850px) {
+  .uphold-your-justice-container {
+    font-size: 50px;
+    line-height: 72px;
+  }
+  .frame-parent {
+    gap: var(--gap-11xl);
+  }
+  .homepage-1-inner {
+    padding-bottom: var(--padding-35xl);
+    box-sizing: border-box;
+  }
+  .lorem-ipsum-dolor-sit-amet-con-parent {
+    gap: 23px;
+  }
+  .frame-group {
+    gap: 58px;
+  }
+  .duplicate-stories-container {
+    gap: var(--gap-19xl);
+  }
+  .frame-div {
+    gap: var(--gap-21xl);
+  }
+  .homepage-1 {
+    gap: var(--gap-26xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .uphold-your-justice-container {
+    font-size: var(--font-size-11xl);
+    line-height: 48px;
+  }
+  .frame-group {
+    gap: 29px;
+  }
+  .duplicate-stories-container {
+    gap: var(--gap-lgi);
+  }
+  .frame-div {
+    gap: var(--gap-xl);
+  }
+}

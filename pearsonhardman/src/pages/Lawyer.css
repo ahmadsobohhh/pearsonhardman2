@@ -1,0 +1,25 @@
+.lawyer {
+  width: 100%;
+  position: relative;
+  background-color: var(--color);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 637px;
+  box-sizing: border-box;
+  gap: var(--gap-161xl);
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1325px) {
+  .lawyer {
+    gap: var(--gap-71xl);
+  }
+}
+@media screen and (max-width: 900px) {
+  .lawyer {
+    gap: var(--gap-26xl);
+  }
+}

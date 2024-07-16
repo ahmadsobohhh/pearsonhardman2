@@ -1,0 +1,114 @@
+* {
+  padding-top: 10px;
+}
+
+.path28-icon {
+  align-self: stretch;
+  width: 45px;
+  position: relative;
+  max-height: 100%;
+  min-height: 36px;
+}
+.pearson-hardman1 {
+  text-decoration: none;
+  position: relative;
+  color: inherit;
+  white-space: nowrap;
+}
+.path28-parent,
+.pearson-hardman-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.pearson-hardman-wrapper {
+  flex-direction: column;
+  padding: var(--padding-11xs-6) 0 0;
+}
+.path28-parent {
+  flex-direction: row;
+  gap: var(--gap-mini);
+}
+.home,
+.search1 {
+  text-decoration: none;
+  position: relative;
+  color: inherit;
+  display: inline-block;
+}
+.home {
+  font-weight: 700;
+  min-width: 52px;
+}
+.search1 {
+  min-width: 58px;
+}
+.our-lawyers {
+  display: inline-block;
+  min-width: 104px;
+}
+.book-an-appointment,
+.contact-us1,
+.our-lawyers {
+  text-decoration: none;
+  position: relative;
+  color: inherit;
+  white-space: nowrap;
+}
+.contact-us1 {
+  display: inline-block;
+  min-width: 94px;
+}
+.home-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.frame-header,
+.frame-parent4,
+.frame-wrapper1 {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frame-wrapper1 {
+  width: 692px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-6xs-6) 0 0;
+  box-sizing: border-box;
+  font-size: var(--body1-regular-size);
+  font-family: var(--body1-regular);
+}
+.frame-header,
+.frame-parent4 {
+  flex-direction: row;
+}
+.frame-parent4 {
+  width: 1596px;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+/* Increase padding-top for the frame-header */
+.frame-header {
+  align-self: stretch;
+  justify-content: center;
+  padding: 20px var(--padding-xl) var(--padding-11xl-8); /* Increase the top padding to 20px */
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--h6-size);
+  color: var(--color3);
+  font-family: var(--h6);
+}
+
+@media screen and (max-width: 1225px) {
+  .home-parent {
+    display: none;
+  }
+  .frame-wrapper1 {
+    width: 0;
+  }
+}

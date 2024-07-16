@@ -1,0 +1,62 @@
+.your-name {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+}
+.enter-your-name {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  font-family: var(--body1-regular);
+  font-size: var(--body1-regular-size);
+  background-color: transparent;
+  height: 23px;
+  flex: 1;
+  position: relative;
+  color: var(--color-gray-300);
+  text-align: left;
+  display: inline-block;
+  min-width: 250px;
+  max-width: 100%;
+  padding: 0;
+}
+.name-email-inputs,
+.name-email-labels {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.name-email-inputs {
+  align-self: stretch;
+  border: 1.5px solid var(--color5);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-lg) var(--padding-9xl);
+}
+.name-email-labels {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-xl);
+  min-width: 502px;
+  text-align: center;
+  font-size: var(--h5-size);
+  color: var(--color-gray-300);
+  font-family: var(--h6);
+}
+@media screen and (max-width: 900px) {
+  .your-name {
+    font-size: var(--font-size-7xl);
+  }
+  .name-email-labels {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .your-name {
+    font-size: var(--font-size-lgi);
+  }
+}

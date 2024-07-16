@@ -1,0 +1,314 @@
+.services-child {
+  height: 800px;
+  width: 1920px;
+  position: relative;
+  background-color: var(--color1);
+  display: none;
+  max-width: 100%;
+}
+.mask-group-icon2 {
+  height: 317px;
+  width: 733px;
+  position: absolute;
+  margin: 0 !important;
+  top: -197px;
+  left: -124px;
+  object-fit: cover;
+  z-index: 1;
+}
+.professional-services-prepared {
+  flex: 1;
+  position: relative;
+  text-transform: capitalize;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 2;
+}
+.mask-group-group,
+.services-inner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.mask-group-group {
+  align-self: stretch;
+  flex-direction: row;
+  position: relative;
+}
+.services-inner {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-114xl) 0 0;
+  box-sizing: border-box;
+  min-width: 444px;
+}
+.education-lawyer {
+  align-self: stretch;
+  position: relative;
+  z-index: 1;
+}
+.service-option-row {
+  width: 531px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.arrow-right-3 {
+  height: 48px;
+  width: 48px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.service-option-row-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.frame-child1 {
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.business-law,
+.frame-child1 {
+  align-self: stretch;
+  position: relative;
+  z-index: 1;
+}
+.business-law-wrapper {
+  width: 531px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.arrow-right-31 {
+  height: 48px;
+  width: 48px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.frame-parent9 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.frame-child2 {
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.education-lawyer1,
+.frame-child2 {
+  align-self: stretch;
+  position: relative;
+  z-index: 1;
+}
+.education-lawyer-consultatio-wrapper {
+  width: 531px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.arrow-right-32 {
+  height: 48px;
+  width: 48px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.frame-parent10 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.frame-child3 {
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.business-law1,
+.frame-child3 {
+  align-self: stretch;
+  position: relative;
+  z-index: 1;
+}
+.business-law-container {
+  width: 531px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.arrow-right-33 {
+  height: 48px;
+  width: 48px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.frame-parent11 {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.frame-parent11,
+.frame-parent8,
+.services,
+.services-wrapper {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frame-parent8 {
+  width: 665px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-14xl-3);
+  min-width: 665px;
+  font-size: var(--h5-size);
+}
+.services,
+.services-wrapper {
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.services {
+  flex: 1;
+  background-color: var(--color1);
+  justify-content: center;
+  padding: var(--padding-198xl) var(--padding-143xl) var(--padding-134xl)
+    var(--padding-268xl);
+  gap: var(--gap-104xl);
+}
+.services-wrapper {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-224xl);
+  text-align: left;
+  font-size: var(--h1-size);
+  color: var(--color2);
+  font-family: var(--h6);
+}
+@media screen and (max-width: 1525px) {
+  .frame-parent8 {
+    flex: 1;
+  }
+  .services {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1225px) {
+  .frame-parent8,
+  .services-inner {
+    min-width: 100%;
+  }
+  .services {
+    gap: var(--gap-42xl);
+    padding-left: var(--padding-124xl);
+    padding-right: var(--padding-62xl);
+    box-sizing: border-box;
+  }
+  .services-wrapper {
+    padding-bottom: var(--padding-139xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 850px) {
+  .professional-services-prepared {
+    font-size: var(--font-size-39xl);
+  }
+  .education-lawyer {
+    font-size: var(--font-size-7xl);
+  }
+  .service-option-row-parent {
+    flex-wrap: wrap;
+  }
+  .business-law {
+    font-size: var(--font-size-7xl);
+  }
+  .frame-parent9 {
+    flex-wrap: wrap;
+  }
+  .education-lawyer1 {
+    font-size: var(--font-size-7xl);
+  }
+  .frame-parent10 {
+    flex-wrap: wrap;
+  }
+  .business-law1 {
+    font-size: var(--font-size-7xl);
+  }
+  .frame-parent11 {
+    flex-wrap: wrap;
+  }
+  .frame-parent8 {
+    gap: var(--gap-mid);
+  }
+  .services {
+    gap: var(--gap-12xl);
+    padding: var(--padding-122xl) var(--padding-21xl) var(--padding-80xl)
+      var(--padding-52xl);
+    box-sizing: border-box;
+  }
+  .services-wrapper {
+    padding-bottom: var(--padding-84xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .professional-services-prepared {
+    font-size: var(--font-size-24xl);
+  }
+  .services-inner {
+    padding-top: var(--padding-67xl);
+    box-sizing: border-box;
+  }
+  .business-law,
+  .business-law1,
+  .education-lawyer,
+  .education-lawyer1 {
+    font-size: var(--font-size-lgi);
+  }
+  .services {
+    gap: var(--gap-mini);
+    padding-left: var(--padding-xl);
+    padding-top: var(--padding-73xl);
+    padding-bottom: var(--padding-45xl);
+    box-sizing: border-box;
+  }
+}

@@ -1,0 +1,77 @@
+.mask-group-icon11 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+}
+.laitman-harry {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+}
+.senior-business-lawyer2 {
+  position: relative;
+  line-height: 23.5px;
+}
+.senior-business-lawyer-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-27xl) 0 var(--padding-26xl);
+  font-size: var(--body1-regular-size);
+  font-family: var(--body1-regular);
+}
+.laitman-harry-parent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-xl);
+}
+.frame-wrapper7,
+.laitman-harry-parent,
+.mask-group-parent2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-wrapper7 {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-41xl);
+}
+.mask-group-parent2 {
+  height: 602px;
+  width: 406px;
+  flex-direction: column;
+  gap: var(--gap-61xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--h4-size);
+  color: var(--color3);
+  font-family: var(--h6);
+}
+@media screen and (max-width: 900px) {
+  .laitman-harry {
+    font-size: var(--font-size-16xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .laitman-harry {
+    font-size: var(--font-size-7xl);
+  }
+  .frame-wrapper7,
+  .senior-business-lawyer-wrapper {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .mask-group-parent2 {
+    gap: var(--gap-21xl);
+  }
+}

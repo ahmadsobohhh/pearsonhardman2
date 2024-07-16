@@ -1,0 +1,65 @@
+/* src/pages/Search.module.css */
+
+.facetedSearch {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  box-sizing: border-box;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.searchTitle {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+}
+
+.searchForm {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.dropdown {
+  width: 100%;
+}
+
+.dropdownLabel {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 1rem;
+  font-family: 'Roboto', sans-serif;
+  color: #666;
+  text-align: left;
+}
+
+.dropdownSelect {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+.searchButton {
+  padding: 10px 20px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.searchButton:hover {
+  background-color: #0056b3;
+}
