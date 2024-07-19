@@ -1,7 +1,14 @@
 import PropTypes from "prop-types";
+import { useNavigate } from "react-router-dom";
 import "./CTA.css";
 
 const CTA = ({ className = "" }) => {
+  const navigate = useNavigate();
+
+  const handleButtonClick = () => {
+    navigate("/search");
+  };
+
   return (
     <section className={`cta ${className}`}>
       <div className="cta-child" />
@@ -12,7 +19,7 @@ const CTA = ({ className = "" }) => {
         </div>
       </div>
       <div className="cta-inner">
-        <button className="get-started-wrapper">
+        <button className="get-started-wrapper" onClick={handleButtonClick}>
           <div className="get-started1">Get Started</div>
         </button>
       </div>

@@ -1,12 +1,14 @@
-import { useEffect } from "react";
+import React, { useEffect } from "react";
 import { Routes, Route, useNavigationType, useLocation } from "react-router-dom";
 import Homepage from "./pages/Homepage";
 import Appointment from "./pages/Appointment";
+import AppointmentConfirmation from "./pages/AppointmentConfirmation";
 import ContactUs from "./pages/ContactUs";
 import Lawyer from "./pages/Lawyer";
-import Search from "./pages/Search"; // Import the Search component
-import Footer from "./components/Footer"; // Import the Footer component
-import FrameComponent10 from "./components/FrameComponent10"; // Import the navigation component
+import Search from "./pages/Search";
+import Footer from "./components/Footer";
+import FrameComponent10 from "./components/FrameComponent10";
+import { LanguageProvider } from './context/LanguageContext';
 
 function App() {
   const action = useNavigationType();
@@ -31,6 +33,10 @@ function App() {
       case "/appointment":
         title = "Appointment";
         metaDescription = "Book an appointment.";
+        break;
+      case "/appointment-confirmation":
+        title = "Appointment Confirmation";
+        metaDescription = "Your appointment is confirmed.";
         break;
       case "/contact-us":
         title = "Contact Us";
@@ -61,17 +67,20 @@ function App() {
   }, [pathname]);
 
   return (
-    <div className="app">
-      <FrameComponent10 /> {/* Add the navigation component here */}
-      <Routes>
-        <Route path="/" element={<Homepage />} />
-        <Route path="/appointment" element={<Appointment />} />
-        <Route path="/contact-us" element={<ContactUs />} />
-        <Route path="/lawyer" element={<Lawyer />} />
-        <Route path="/search" element={<Search />} /> {/* Add the Search route here */}
-      </Routes>
-      <Footer /> {/* Add the Footer component here */}
-    </div>
+    <LanguageProvider>
+      <div className="app">
+        <FrameComponent10 />
+        <Routes>
+          <Route path="/" element={<Homepage />} />
+          <Route path="/appointment" element={<Appointment />} />
+          <Route path="/appointment-confirmation" element={<AppointmentConfirmation />} />
+          <Route path="/contact-us" element={<ContactUs />} />
+          <Route path="/lawyer" element={<Lawyer />} />
+          <Route path="/search" element={<Search />} />
+        </Routes>
+        <Footer />
+      </div>
+    </LanguageProvider>
   );
 }
 

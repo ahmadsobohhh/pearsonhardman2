@@ -7,9 +7,9 @@ const Appointment = () => {
   return (
     <div className="appointment">
       <Hero
-        image66="./pearsonhardman2/image-66@2x.png"
+        image66="./image-66@2x.png"
         aboutUs="Appointment"
-        heroShape="./pearsonhardman2/vector-18.svg"
+        heroShape="./vector-18.svg"
       />
       <FrameComponent />
       <Footer />

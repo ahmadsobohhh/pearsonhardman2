@@ -1,70 +1,20 @@
-.services2 {
-  margin: 0;
-  position: relative;
-  font-size: inherit;
-  font-weight: 400;
-  font-family: inherit;
-}
-.choose-services {
-  width: 596px;
-  position: relative;
-  display: inline-block;
-  max-width: calc(100% - 44px);
-}
-.arrow-down-2 {
-  height: 24px;
-  width: 24px;
-  position: relative;
-  overflow: hidden;
-  flex-shrink: 0;
-}
-.service-lawyer-options {
-  flex: 1;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  max-width: 100%;
-  gap: var(--gap-xl);
-}
-.service-lawyer,
-.service-lawyer-dropdowns {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  max-width: 100%;
-}
-.service-lawyer-dropdowns {
-  align-self: stretch;
-  border: 1.5px solid var(--color5);
-  box-sizing: border-box;
-  overflow: hidden;
-  flex-direction: row;
-  padding: var(--padding-lg) var(--padding-9xl);
-  text-align: left;
-  font-size: var(--body1-regular-size);
-  font-family: var(--body1-regular);
-}
 .service-lawyer {
-  flex: 1;
+  display: flex;
   flex-direction: column;
-  gap: var(--gap-xl);
-  min-width: 502px;
-  text-align: center;
-  font-size: var(--h5-size);
-  color: var(--color-gray-300);
-  font-family: var(--h6);
+  gap: 5px;
 }
-@media screen and (max-width: 900px) {
-  .services2 {
-    font-size: var(--font-size-7xl);
-  }
-  .service-lawyer {
-    min-width: 100%;
-  }
+
+.service-lawyer label {
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
 }
-@media screen and (max-width: 450px) {
-  .services2 {
-    font-size: var(--font-size-lgi);
-  }
+
+.select-input {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
 }

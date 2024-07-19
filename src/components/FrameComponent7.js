@@ -15,22 +15,22 @@ const FrameComponent7 = ({ className = "" }) => {
               className="daerazo-icon"
               loading="lazy"
               alt=""
-              src="./pearsonhardman2/daerazo.svg"
+              src="./daerazo.svg"
             />
             <div className="daerazo">Daerazo</div>
           </div>
         </div>
-        <img className="frame-item" loading="lazy" alt="" src="./pearsonhardman2/vector-3.svg" />
-        <FrameComponent8 group2="./pearsonhardman2/group-2.svg" miguxian="Miguxian" />
+        <img className="frame-item" loading="lazy" alt="" src="./vector-3.svg" />
+        <FrameComponent8 group2="./group-2.svg" miguxian="Miguxian" />
         <img
           className="frame-inner"
           loading="lazy"
           alt=""
-          src="./pearsonhardman2/vector-4.svg"
+          src="./vector-4.svg"
         />
-        <FrameComponent8 group2="./pearsonhardman2/jeninalyn.svg" miguxian="Jeninayln" />
-        <img className="vector-icon" alt="" src="./pearsonhardman2/vector-5.svg" />
-        <FrameComponent8 group2="./pearsonhardman2/superanzo.svg" miguxian="Superanzo" />
+        <FrameComponent8 group2="./jeninalyn.svg" miguxian="Jeninayln" />
+        <img className="vector-icon" alt="" src="./vector-5.svg" />
+        <FrameComponent8 group2="./superanzo.svg" miguxian="Superanzo" />
       </div>
     </div>
   );

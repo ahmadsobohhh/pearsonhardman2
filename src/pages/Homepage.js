@@ -1,3 +1,4 @@
+import React from 'react';
 import FrameComponent9 from "../components/FrameComponent9";
 import FrameComponent7 from "../components/FrameComponent7";
 import FrameComponent6 from "../components/FrameComponent6";
@@ -8,8 +9,12 @@ import Attorney from "../components/Attorney";
 import Lawyers from "../components/Lawyers";
 import SuccessStoryItems from "../components/SuccessStoryItems";
 import "./Homepage.css";
+import { useLanguage } from '../context/LanguageContext';
+import translations from '../utils/translations';
 
 const Homepage = () => {
+  const { language } = useLanguage();
+
   return (
     <div className="homepage-1">
       <section className="homepage-1-inner">
@@ -19,16 +24,14 @@ const Homepage = () => {
               className="mask-group-icon"
               loading="lazy"
               alt=""
-              src="./pearsonhardman2/mask-group@2x.png"
+              src="./mask-group@2x.png"
             />
             <div className="uphold-your-justice-container">
-              <span>{`Uphold Your justice With `}</span>
-              <span className="pearson-hardman">{`Pearson Hardman `}</span>
-              <span>Law Firm</span>
+              <span>{translations[language].welcomeMessage}</span>
             </div>
           </div>
           <button className="s">
-            <div className="get-started">Get started</div>
+            <div className="get-started">{translations[language].getStarted}</div>
           </button>
         </div>
       </section>
@@ -40,13 +43,10 @@ const Homepage = () => {
               <div className="lorem-ipsum-dolor-container">
                 <p className="blank-line">&nbsp;</p>
                 <p className="cum-mattis-mollis">
-                  Take a look at our law firm and what we do. Founded in 1752, before Canadian Independence, Pearson Hardman remains the best law firm on Earth.
+                  {translations[language].establishedText}
                 </p>
               </div>
               <div className="frame-container">
-                <button className="see-detail-wrapper">
-                  <div className="see-detail">See detail</div>
-                </button>
               </div>
             </div>
           </div>

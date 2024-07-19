@@ -26,7 +26,7 @@ const Lawyers = ({ className = "" }) => {
               className="mask-group-icon10"
               loading="lazy"
               alt=""
-              src="./pearsonhardman2/mask-group-8@2x.png"
+              src="./mask-group-8@2x.png"
             />
             <div className="news-content-inner">
               <div className="news-title-parent">
@@ -45,11 +45,11 @@ const Lawyers = ({ className = "" }) => {
           </div>
           <div className="news-grid">
             <NewsItems
-              maskGroup="./pearsonhardman2/mask-group-9@2x.png"
+              maskGroup="./mask-group-9@2x.png"
               nadaGeomorgant="Nada Geoant"
             />
             <NewsItems
-              maskGroup="./pearsonhardman2/mask-group-10@2x.png"
+              maskGroup="./mask-group-10@2x.png"
               nadaGeomorgant="Desy Willy"
               propHeight="602px"
             />
@@ -63,13 +63,7 @@ const Lawyers = ({ className = "" }) => {
             </div>
             <div className="news-more-link">
               <div className="news-more-link-container">
-                <div className="see-more1">See more</div>
-                <img
-                  className="arrow-right-35"
-                  loading="lazy"
-                  alt=""
-                  src="./pearsonhardman2/arrow--right-3-4.svg"
-                />
+
               </div>
             </div>
           </div>

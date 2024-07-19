@@ -1,109 +1,69 @@
-.lets-make-a {
-  margin: 0;
-  position: relative;
-  font-size: inherit;
-  text-transform: capitalize;
-  font-weight: 400;
-  font-family: inherit;
-}
-.appointment-title,
-.name-email,
-.phone-date,
-.phone-date1 {
-  align-self: stretch;
+.appointment-content-wrapper {
   display: flex;
-  flex-direction: row;
   justify-content: center;
-}
-.appointment-title {
-  align-items: flex-start;
-  padding: 0 var(--padding-xl) 0 var(--padding-2xl);
-}
-.name-email,
-.phone-date,
-.phone-date1 {
-  flex-wrap: wrap;
-  align-items: flex-end;
-  gap: var(--gap-31xl);
-  max-width: 100%;
-}
-.make-appointment {
-  position: relative;
-  font-size: var(--h6-size);
-  font-family: var(--h6);
-  color: var(--color2);
-  text-align: center;
-}
-.submit-button {
-  cursor: pointer;
-  border: 0;
-  padding: var(--padding-3xs) var(--padding-29xl);
-  background-color: var(--color1);
-  display: flex;
-  flex-direction: row;
   align-items: center;
-  justify-content: center;
-  white-space: nowrap;
+  height: 100vh;
+  background-color: #f9f9f9;
+  padding: 20px;
 }
-.submit-button:hover {
-  background-color: var(--color-slategray);
+
+.appointment-content {
+  width: 100%;
+  max-width: 800px; /* Make the form wider */
+  background-color: white;
+  padding: 40px; /* Increase padding for a more spacious layout */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 0 auto; /* Center the form horizontally */
 }
-.appointment-content,
+
+.appointment-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.lets-make-a {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
 .input-fields {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  max-width: 100%;
+  gap: 20px;
 }
-.input-fields {
-  align-self: stretch;
-  align-items: flex-start;
-  gap: var(--gap-31xl);
-  font-size: var(--h5-size);
-}
-.appointment-content {
-  width: 1596px;
-  align-items: flex-end;
-  gap: var(--gap-61xl);
-}
-.appointment-content-wrapper {
-  align-self: stretch;
+
+.name-email, .phone-date, .service-lawyer {
   display: flex;
-  flex-direction: row;
-  align-items: flex-start;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.name-email > div, .phone-date > div, .service-lawyer > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.submit-button {
+  display: flex;
   justify-content: center;
-  padding: 0 var(--padding-xl) var(--padding-7xs);
-  box-sizing: border-box;
-  max-width: 100%;
-  text-align: center;
-  font-size: var(--h1-size);
-  color: var(--color-gray-300);
-  font-family: var(--h6);
+  align-items: center;
+  background-color: #007bff;
+  color: white;
+  padding: 15px 30px; /* Increase padding for the button */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
 }
-@media screen and (max-width: 900px) {
-  .lets-make-a {
-    font-size: var(--font-size-39xl);
-  }
-  .input-fields,
-  .name-email,
-  .phone-date,
-  .phone-date1 {
-    gap: var(--gap-6xl);
-  }
-  .appointment-content {
-    gap: var(--gap-21xl);
-  }
+
+.submit-button:hover {
+  background-color: #0056b3;
 }
-@media screen and (max-width: 450px) {
-  .lets-make-a {
-    font-size: var(--font-size-24xl);
-  }
-  .submit-button {
-    padding-left: var(--padding-xl);
-    padding-right: var(--padding-xl);
-    box-sizing: border-box;
-  }
-  .appointment-content {
-    gap: var(--gap-xl);
-  }
+
+.make-appointment {
+  font-size: 16px;
+  font-weight: bold;
 }

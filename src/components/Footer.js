@@ -7,14 +7,14 @@ const Footer = ({ className = "" }) => {
     <div className={`footer ${className}`}>
       <section className="main">
         <div className="brand">
-          <img className="g22-icon" loading="lazy" alt="" src="./pearsonhardman2/g22.svg" />
+          <img className="g22-icon" loading="lazy" alt="" src="./g22.svg" />
           <a className="northman">Pearson Hardman</a>
         </div>
         <img
           className="header-icon"
           loading="lazy"
           alt=""
-          src="./pearsonhardman2/vector-23.svg"
+          src="./vector-23.svg"
         />
         <div className="navigation">
           <div className="about">
@@ -23,25 +23,25 @@ const Footer = ({ className = "" }) => {
                 className="akar-iconsfacebook-fill"
                 loading="lazy"
                 alt=""
-                src="./pearsonhardman2/akariconsfacebookfill.svg"
+                src="./akariconsfacebookfill.svg"
               />
               <img
                 className="akar-iconslinkedin-box-fill"
                 loading="lazy"
                 alt=""
-                src="./pearsonhardman2/akariconslinkedinboxfill.svg"
+                src="./akariconslinkedinboxfill.svg"
               />
               <img
                 className="akar-iconstwitter-fill"
                 loading="lazy"
                 alt=""
-                src="./pearsonhardman2/akariconstwitterfill.svg"
+                src="./akariconstwitterfill.svg"
               />
               <img
                 className="ant-designinstagram-filled-icon"
                 loading="lazy"
                 alt=""
-                src="./pearsonhardman2/antdesigninstagramfilled.svg"
+                src="./antdesigninstagramfilled.svg"
               />
             </div>
           </div>
@@ -66,7 +66,7 @@ const Footer = ({ className = "" }) => {
                   className="call-icon"
                   loading="lazy"
                   alt=""
-                  src="./pearsonhardman2/call.svg"
+                  src="./call.svg"
                 />
                 <div className="contact-values">+613 890 7232</div>
               </div>
@@ -75,7 +75,7 @@ const Footer = ({ className = "" }) => {
                   className="location-icon"
                   loading="lazy"
                   alt=""
-                  src="./pearsonhardman2/location.svg"
+                  src="./location.svg"
                 />
                 <div className="mechanic-rdmiami-fl">
                   +7889 uOttawa Rd, ON K2R 0A1
@@ -86,7 +86,7 @@ const Footer = ({ className = "" }) => {
                   className="message-icon"
                   loading="lazy"
                   alt=""
-                  src="./pearsonhardman2/message.svg"
+                  src="./message.svg"
                 />
                 <div className="northmanlawdomaincom">
                   PearsonHardman@domain.com
@@ -99,7 +99,7 @@ const Footer = ({ className = "" }) => {
           className="header-icon1"
           loading="lazy"
           alt=""
-          src="./pearsonhardman2/vector-24.svg"
+          src="./vector-24.svg"
         />
         <div className="copyright-2022-northman-container">
           <span>{`Copyright @2024 `}</span>

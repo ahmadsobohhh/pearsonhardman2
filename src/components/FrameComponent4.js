@@ -18,10 +18,7 @@ const FrameComponent4 = ({ className = "", propWidth, propFlex }) => {
       <div className="the-case-of">
         The Case of William Accused of Corruption at B.M.O. Bank
       </div>
-      <div className="lorem-ipsum-dolor3">{`The case that broke the century, click below.`}</div>
-      <button className="see-detail-container">
-        <div className="see-detail1">See detail</div>
-      </button>
+      <div className="lorem-ipsum-dolor3">{`One case that broke the century!`}</div>
     </div>
   );
 };

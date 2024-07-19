@@ -7,21 +7,25 @@
   object-fit: cover;
   min-width: 227px;
 }
+
 .cases-have-been,
 .lorem-ipsum-dolor4,
 .story-icon {
   align-self: stretch;
   position: relative;
 }
+
 .story-icon {
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
 }
+
 .lorem-ipsum-dolor4 {
   font-size: var(--body1-regular-size);
   font-family: var(--body1-regular);
 }
+
 .read-now {
   position: relative;
   font-size: var(--h6-size);
@@ -31,6 +35,7 @@
   display: inline-block;
   min-width: 104px;
 }
+
 .story-link {
   cursor: pointer;
   border: 0;
@@ -42,15 +47,18 @@
   justify-content: center;
   white-space: nowrap;
 }
+
 .story-link:hover {
   background-color: var(--color-slategray);
 }
+
 .story-content,
 .success-story-items {
   display: flex;
   justify-content: flex-start;
   box-sizing: border-box;
 }
+
 .story-content {
   width: 320px;
   flex-direction: column;
@@ -58,7 +66,9 @@
   padding: var(--padding-xl) 0;
   gap: var(--gap-21xl);
   min-width: 320px;
+  margin-bottom: var(--gap-21xl); /* Adjust this to reduce bottom margin */
 }
+
 .success-story-items {
   flex: 1;
   flex-direction: row;
@@ -71,30 +81,40 @@
   font-size: var(--h4-size);
   color: var(--color3);
   font-family: var(--h6);
+  margin-bottom: var(--gap-21xl); /* Adjust this to reduce bottom margin */
 }
+
 @media screen and (max-width: 850px) {
   .cases-have-been {
     font-size: var(--font-size-16xl);
   }
+
   .story-content {
     flex: 1;
+    margin-bottom: var(--gap-6xl); /* Adjust this to reduce bottom margin */
   }
+
   .success-story-items {
     flex-wrap: wrap;
     gap: var(--gap-6xl);
     min-width: 100%;
+    margin-bottom: var(--gap-6xl); /* Adjust this to reduce bottom margin */
   }
 }
+
 @media screen and (max-width: 450px) {
   .cases-have-been {
     font-size: var(--font-size-7xl);
   }
+
   .story-link {
     padding-left: var(--padding-xl);
     padding-right: var(--padding-xl);
     box-sizing: border-box;
   }
+
   .story-content {
     gap: var(--gap-xl);
+    margin-bottom: var(--gap-xl); /* Adjust this to reduce bottom margin */
   }
 }

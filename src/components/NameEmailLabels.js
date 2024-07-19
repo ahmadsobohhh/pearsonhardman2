@@ -7,6 +7,8 @@ const NameEmailLabels = ({
   yourName,
   enterYourNamePlaceholder,
   propMinWidth,
+  handleChange,
+  name,
 }) => {
   const nameEmailLabelsStyle = useMemo(() => {
     return {
@@ -25,6 +27,8 @@ const NameEmailLabels = ({
           className="enter-your-name"
           placeholder={enterYourNamePlaceholder}
           type="text"
+          onChange={handleChange}
+          name={name}
         />
       </div>
     </div>
@@ -35,9 +39,9 @@ NameEmailLabels.propTypes = {
   className: PropTypes.string,
   yourName: PropTypes.string,
   enterYourNamePlaceholder: PropTypes.string,
-
-  /** Style props */
   propMinWidth: PropTypes.any,
+  handleChange: PropTypes.func.isRequired,
+  name: PropTypes.string.isRequired,
 };
 
 export default NameEmailLabels;

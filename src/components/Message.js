@@ -1,29 +1,22 @@
 import PropTypes from "prop-types";
 import "./Message.css";
 
-const Message = ({ className = "", messageInputRows, messageInputCols }) => {
+const Message = ({ handleChange, name }) => {
   return (
-    <div className={`message ${className}`}>
-      <div className="message-label">
-        <div className="message-optional">
-          <span>{`Message `}</span>
-          <span className="optional">(optional)</span>
-        </div>
-        <textarea
-          className="message-input"
-          placeholder="Enter message"
-          rows={messageInputRows}
-          cols={messageInputCols}
-        />
-      </div>
+    <div className="message">
+      <label>Message</label>
+      <textarea
+        placeholder="Enter your message"
+        onChange={handleChange}
+        name={name}
+      />
     </div>
   );
 };
 
 Message.propTypes = {
-  className: PropTypes.string,
-  messageInputRows: PropTypes.number,
-  messageInputCols: PropTypes.number,
+  handleChange: PropTypes.func.isRequired,
+  name: PropTypes.string.isRequired,
 };
 
 export default Message;
