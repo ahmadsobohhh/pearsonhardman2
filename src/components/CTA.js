@@ -6,7 +6,7 @@ const CTA = ({ className = "" }) => {
   const navigate = useNavigate();
 
   const handleButtonClick = () => {
-    navigate("/search");
+    navigate("/appointment");
   };
 
   return (

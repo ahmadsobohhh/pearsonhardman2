@@ -24,7 +24,7 @@ const Homepage = () => {
               className="mask-group-icon"
               loading="lazy"
               alt=""
-              src="./mask-group@2x.png"
+              src="./pearsonhardman2/mask-group@2x.png"
             />
             <div className="uphold-your-justice-container">
               <span>{translations[language].welcomeMessage}</span>
@@ -64,11 +64,11 @@ const Homepage = () => {
           <div className="duplicate-stories">
             <div className="duplicate-stories-container">
               <SuccessStoryItems
-                maskGroup="/mask-group-13@2x.png"
+                maskGroup="./pearsonhardman2/mask-group-13@2x.png"
                 propPadding="unset"
               />
               <SuccessStoryItems
-                maskGroup="/mask-group-14@2x.png"
+                maskGroup="./pearsonhardman2/mask-group-14@2x.png"
                 propPadding="unset"
               />
             </div>

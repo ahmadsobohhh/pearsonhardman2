@@ -7,9 +7,9 @@ const Lawyer = () => {
   return (
     <div className="lawyer">
       <Hero
-        image66="./image-66@2x.png"
+        image66="./pearsonhardman2/image-66@2x.png"
         aboutUs="Our Lawyers"
-        heroShape="./vector-18.svg"
+        heroShape="./pearsonhardman2/vector-18.svg"
       />
       <Team />
       <Pqq />

@@ -9,7 +9,7 @@ const Attorney = ({ className = "" }) => {
           className="mask-group-icon7"
           loading="lazy"
           alt=""
-          src="./mask-group-7@2x.png"
+          src="./pearsonhardman2/mask-group-7@2x.png"
         />
         <div className="attorney-content">
           <div className="years-experience-parent">
@@ -22,7 +22,7 @@ const Attorney = ({ className = "" }) => {
               className="experience-icon"
               loading="lazy"
               alt=""
-              src="./vector-12.svg"
+              src="./pearsonhardman2/vector-12.svg"
             />
             <div className="stats">
               <div className="stats-container">
@@ -32,7 +32,7 @@ const Attorney = ({ className = "" }) => {
                       className="tick-square-icon"
                       loading="lazy"
                       alt=""
-                      src="./tick-square.svg"
+                      src="./pearsonhardman2/tick-square.svg"
                     />
                   </div>
                   <div className="success-handled-cases">
@@ -45,7 +45,7 @@ const Attorney = ({ className = "" }) => {
                       className="tick-square-icon1"
                       loading="lazy"
                       alt=""
-                      src="./tick-square.svg"
+                      src="./pearsonhardman2/tick-square.svg"
                     />
                   </div>
                   <div className="responsible-raised">Responsible Raised</div>
@@ -56,7 +56,7 @@ const Attorney = ({ className = "" }) => {
                       className="tick-square-icon2"
                       loading="lazy"
                       alt=""
-                      src="./tick-square.svg"
+                      src="./pearsonhardman2/tick-square.svg"
                     />
                   </div>
                   <div className="success-handled-cases1">
@@ -69,7 +69,7 @@ const Attorney = ({ className = "" }) => {
                       className="tick-square-icon3"
                       loading="lazy"
                       alt=""
-                      src="./tick-square.svg"
+                      src="./pearsonhardman2/tick-square.svg"
                     />
                   </div>
                   <div className="responsible-raised1">Responsible Raised</div>

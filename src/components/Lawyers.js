@@ -26,7 +26,7 @@ const Lawyers = ({ className = "" }) => {
               className="mask-group-icon10"
               loading="lazy"
               alt=""
-              src="./mask-group-8@2x.png"
+              src="./pearsonhardman2/mask-group-8@2x.png"
             />
             <div className="news-content-inner">
               <div className="news-title-parent">

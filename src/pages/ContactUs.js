@@ -6,9 +6,9 @@ const ContactUs = () => {
   return (
     <div className="contact-us">
       <Hero
-        image66="./image-66@2x.png"
+        image66="./pearsonhardman2/image-66@2x.png"
         aboutUs="Contact us"
-        heroShape="./vector-18.svg"
+        heroShape="./pearsonhardman2/vector-18.svg"
       />
       <FrameComponent1 />
     </div>

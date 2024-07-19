@@ -37,7 +37,7 @@ const FrameComponent = ({ className = "" }) => {
         <div className="form-content">
           <div className="appointment-title">
             <h1 className="lets-make-a">
-              Let's Make an Appointment with Us
+               Make an Appointment with Us
             </h1>
           </div>
           <form className="input-fields" onSubmit={handleSubmit}>
@@ -91,7 +91,7 @@ const FrameComponent = ({ className = "" }) => {
         </div>
       </div>
       <div className="image-content">
-          <img src="/mask-group-11@2x.png" alt="Appointment" />
+          <img src="./pearsonhardman2/mask-group-11@2x.png" alt="Appointment" />
         </div>
     </section>
   );

@@ -19,7 +19,7 @@ const Hero = ({ className = "", image66, aboutUs, heroShape }) => {
           className="hero-shape-icon"
           loading="lazy"
           alt=""
-          src={"./heroShape"}
+          src={"./pearsonhardman2/heroShape"}
         />
         <div className="hero-description">
           <div className="lorem-ipsum-dolor6">{`Meet our uOttawa and Carelton educated Lawyers, we only hire the best of the best and the top of the class.`}</div>
