@@ -1,12 +1,16 @@
 import FrameComponent8 from "./FrameComponent8";
 import PropTypes from "prop-types";
 import "./FrameComponent7.css";
+import { useLanguage } from '../context/LanguageContext';
+import translations from '../utils/translations';
 
 const FrameComponent7 = ({ className = "" }) => {
+  const { language } = useLanguage();
+
   return (
     <div className={`frame-parent6 ${className}`}>
       <div className="our-partnership-wrapper">
-        <div className="our-partnership">Our Partnership</div>
+        <div className="our-partnership">{translations[language].ourPartnership}</div>
       </div>
       <div className="frame-parent7">
         <div className="frame-wrapper3">

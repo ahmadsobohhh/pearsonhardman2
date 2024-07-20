@@ -1,7 +1,11 @@
 import PropTypes from "prop-types";
 import "./Attorney.css";
+import { useLanguage } from '../context/LanguageContext';
+import translations from '../utils/translations';
 
 const Attorney = ({ className = "" }) => {
+  const { language } = useLanguage();
+
   return (
     <div className={`attorney ${className}`}>
       <div className="attorney-container">
@@ -15,7 +19,7 @@ const Attorney = ({ className = "" }) => {
           <div className="years-experience-parent">
             <div className="years-experience">
               <div className="years-has-been">
-                274 Years has been a legal attorney and consulting
+                {translations[language].attorneyYearsExperience}
               </div>
             </div>
             <img
@@ -36,7 +40,7 @@ const Attorney = ({ className = "" }) => {
                     />
                   </div>
                   <div className="success-handled-cases">
-                    Success Handled Cases
+                    {translations[language].successHandledCases}
                   </div>
                 </div>
                 <div className="stats-row1">
@@ -48,7 +52,9 @@ const Attorney = ({ className = "" }) => {
                       src="./pearsonhardman2/tick-square.svg"
                     />
                   </div>
-                  <div className="responsible-raised">Responsible Raised</div>
+                  <div className="responsible-raised">
+                    {translations[language].responsibleRaised}
+                  </div>
                 </div>
                 <div className="stats-row2">
                   <div className="tick-square-container">
@@ -60,7 +66,7 @@ const Attorney = ({ className = "" }) => {
                     />
                   </div>
                   <div className="success-handled-cases1">
-                    Success Handled Cases
+                    {translations[language].successHandledCases}
                   </div>
                 </div>
                 <div className="stats-row3">
@@ -72,7 +78,9 @@ const Attorney = ({ className = "" }) => {
                       src="./pearsonhardman2/tick-square.svg"
                     />
                   </div>
-                  <div className="responsible-raised1">Responsible Raised</div>
+                  <div className="responsible-raised1">
+                    {translations[language].responsibleRaised}
+                  </div>
                 </div>
               </div>
             </div>

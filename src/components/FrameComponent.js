@@ -5,9 +5,12 @@ import ServiceLawyer from "./ServiceLawyer";
 import Message from "./Message";
 import PropTypes from "prop-types";
 import "./FrameComponent.css";
+import { useLanguage } from '../context/LanguageContext';
+import translations from '../utils/translations';
 
 const FrameComponent = ({ className = "" }) => {
   const navigate = useNavigate();
+  const { language } = useLanguage();
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -37,19 +40,19 @@ const FrameComponent = ({ className = "" }) => {
         <div className="form-content">
           <div className="appointment-title">
             <h1 className="lets-make-a">
-               Make an Appointment with Us
+              {translations[language].makeAppointment}
             </h1>
           </div>
           <form className="input-fields" onSubmit={handleSubmit}>
             <div className="name-email">
               <NameEmailLabels
-                yourName="Your Name*"
-                enterYourNamePlaceholder="Enter your name"
+                yourName={translations[language].firstName}
+                enterYourNamePlaceholder={translations[language].enterFirstNamePlaceholder}
                 handleChange={handleChange}
                 name="name"
               />
               <NameEmailLabels
-                yourName="Your Email*"
+                yourName={translations[language].email}
                 enterYourNamePlaceholder="Enter your email"
                 handleChange={handleChange}
                 name="email"
@@ -57,8 +60,8 @@ const FrameComponent = ({ className = "" }) => {
             </div>
             <div className="phone-date">
               <NameEmailLabels
-                yourName="Your Phone*"
-                enterYourNamePlaceholder="Enter your phone"
+                yourName={translations[language].phone}
+                enterYourNamePlaceholder={translations[language].enterPhonePlaceholder}
                 handleChange={handleChange}
                 name="phone"
               />
@@ -85,7 +88,7 @@ const FrameComponent = ({ className = "" }) => {
             </div>
             <Message handleChange={handleChange} name="message" />
             <button className="submit-button" type="submit">
-              <div className="make-appointment">Make Appointment</div>
+              <div className="make-appointment">{translations[language].bookAnAppointment}</div>
             </button>
           </form>
         </div>

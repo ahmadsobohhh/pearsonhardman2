@@ -1,7 +1,11 @@
 import PropTypes from "prop-types";
 import "./FrameComponent9.css";
+import { useLanguage } from '../context/LanguageContext';
+import translations from '../utils/translations';
 
 const FrameComponent9 = ({ className = "" }) => {
+  const { language } = useLanguage();
+
   return (
     <div className={`frame-parent5 ${className}`}>
       <div className="mask-group-wrapper">
@@ -15,9 +19,9 @@ const FrameComponent9 = ({ className = "" }) => {
       <img className="frame-child" loading="lazy" alt="" src="./pearsonhardman2/vector-2.svg" />
       <div className="frame-wrapper2">
         <div className="about-us-parent">
-          <div className="about-us">About Us</div>
+          <div className="about-us">{translations[language].aboutUs}</div>
           <div className="helping-to-overcome">
-            Helping to overcome and ease the legal burden
+            {translations[language].helpingToOvercome}
           </div>
         </div>
       </div>

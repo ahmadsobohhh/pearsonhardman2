@@ -2,19 +2,23 @@ import NewsItems from "./NewsItems";
 import SuccessStoryItems from "./SuccessStoryItems";
 import PropTypes from "prop-types";
 import "./Lawyers.css";
+import { useLanguage } from '../context/LanguageContext';
+import translations from '../utils/translations';
 
 const Lawyers = ({ className = "" }) => {
+  const { language } = useLanguage();
+
   return (
     <div className={`lawyers ${className}`}>
       <div className="lawyers-container">
-        <div className="lawyer2">Lawyer</div>
+        <div className="lawyer2">{translations[language].lawyer}</div>
         <div className="lawyers-description">
           <div className="professional-lawyers-and">
-            Professional lawyers and advisors with more experience
+            {translations[language].professionalLawyers}
           </div>
           <div className="lawyers-more">
             <div className="lorem-ipsum-dolor5">
-              See our pick of our best uOttawa Alumni educated lawyers, ranked #1 on Earth.
+              {translations[language].lawyersDescription}
             </div>
           </div>
         </div>
@@ -58,12 +62,11 @@ const Lawyers = ({ className = "" }) => {
         <div className="news-more">
           <div className="news-more-content">
             <div className="the-latest-news-container">
-              <p className="the-latest-news">{`The latest news `}</p>
-              <p className="and-blog-from">and blog from Pearson Hardman</p>
+              <p className="the-latest-news">{translations[language].latestNews}</p>
+              <p className="and-blog-from">{translations[language].andBlogFrom}</p>
             </div>
             <div className="news-more-link">
               <div className="news-more-link-container">
-
               </div>
             </div>
           </div>

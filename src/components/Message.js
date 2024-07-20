@@ -1,12 +1,16 @@
 import PropTypes from "prop-types";
 import "./Message.css";
+import { useLanguage } from '../context/LanguageContext';
+import translations from '../utils/translations';
 
 const Message = ({ handleChange, name }) => {
+  const { language } = useLanguage();
+
   return (
     <div className="message">
-      <label>Message</label>
+      <label>{translations[language].getMessage}</label>
       <textarea
-        placeholder="Enter your message"
+        placeholder={translations[language].enterMessagePlaceholder}
         onChange={handleChange}
         name={name}
       />

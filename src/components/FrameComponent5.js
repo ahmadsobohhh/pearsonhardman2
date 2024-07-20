@@ -1,12 +1,16 @@
 import PropTypes from "prop-types";
 import "./FrameComponent5.css";
+import { useLanguage } from '../context/LanguageContext';
+import translations from '../utils/translations';
 
 const FrameComponent5 = ({ className = "" }) => {
+  const { language } = useLanguage();
+
   return (
     <section className={`homepage-1-inner1 ${className}`}>
       <div className="frame-parent12">
         <div className="testimonials-parent">
-          <div className="testimonials">Testimonials</div>
+          <div className="testimonials">{translations[language].testimonials}</div>
           <div className="mask-group-container">
             <img
               className="mask-group-icon3"
@@ -15,8 +19,8 @@ const FrameComponent5 = ({ className = "" }) => {
               src="./pearsonhardman2/mask-group-3@2x.png"
             />
             <div className="our-happy-client-container">
-              <p className="our-happy-client">Our Happy Client Say</p>
-              <p className="about-us1">About Us</p>
+              <p className="our-happy-client">{translations[language].ourHappyClientSay}</p>
+              <p className="about-us1">{translations[language].aboutUs}</p>
             </div>
           </div>
         </div>
@@ -31,11 +35,11 @@ const FrameComponent5 = ({ className = "" }) => {
             <div className="frame-parent13">
               <div className="parent">
                 <div className="lorem-ipsum-dolor1">
-                  Pearson Hardman defended my trillion dollar corporation against numerous false allegations that would have destroyed my company. I would recommend them and stay with them for as long as my career  goes on.
+                  Pearson Hardman defended my trillion dollar corporation against numerous false allegations that would have destroyed my company. I would recommend them and stay with them for as long as my career goes on.
                 </div>
               </div>
               <div className="johnatan-g-parent">
-                <div className="johnatan-g-">{`Johnatan G - `}</div>
+                <div className="johnatan-g-">{translations[language].johnatanG}</div>
                 <div className="frame-wrapper4">
                   <div className="star-parent">
                     <img
@@ -56,8 +60,7 @@ const FrameComponent5 = ({ className = "" }) => {
                   </div>
                 </div>
                 <div className="reviewed">
-                  <span>{`4.8/5 - `}</span>
-                  <span className="reviewed1">322 Reviewed</span>
+                  <span>{translations[language].starRating}</span>
                 </div>
               </div>
             </div>

@@ -1,8 +1,12 @@
 import PropTypes from "prop-types";
 import React from 'react';
 import "./Footer.css";
+import { useLanguage } from '../context/LanguageContext';
+import translations from '../utils/translations';
 
 const Footer = ({ className = "" }) => {
+  const { language } = useLanguage();
+
   return (
     <div className={`footer ${className}`}>
       <section className="main">
@@ -46,17 +50,17 @@ const Footer = ({ className = "" }) => {
             </div>
           </div>
           <div className="pages">
-            <div className="page">Page</div>
+            <div className="page">{translations[language].page}</div>
             <div className="page-list">
-              <div className="cases">Cases</div>
+              <div className="cases">{translations[language].cases}</div>
               <div className="news">News</div>
             </div>
           </div>
           <div className="footer-links">
-            <div className="links">Links</div>
+            <div className="links">{translations[language].links}</div>
             <div className="link-list">
-              <div className="term-of-use">Term of use</div>
-              <a className="privacy-policy">Privacy Policy</a>
+              <div className="term-of-use">{translations[language].termOfUse}</div>
+              <a className="privacy-policy">{translations[language].privacyPolicy}</a>
             </div>
           </div>
           <div className="contact">
@@ -102,9 +106,7 @@ const Footer = ({ className = "" }) => {
           src="./pearsonhardman2/vector-24.svg"
         />
         <div className="copyright-2022-northman-container">
-          <span>{`Copyright @2024 `}</span>
-          <b>Pearson Hardman</b>
-          <span> All Right Reserved</span>
+          <span>{translations[language].copyright}</span>
         </div>
       </section>
     </div>

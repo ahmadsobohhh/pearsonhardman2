@@ -1,16 +1,20 @@
 import FrameComponent2 from "./FrameComponent2";
 import PropTypes from "prop-types";
 import "./Team.css";
+import { useLanguage } from '../context/LanguageContext';
+import translations from '../utils/translations';
 
 const Team = ({ className = "" }) => {
+  const { language } = useLanguage();
+
   return (
     <section className={`team ${className}`}>
       <div className="team-grid">
         <div className="team-description">
-          <div className="lawyer4">Lawyer</div>
+          <div className="lawyer4">{translations[language].lawyer}</div>
           <div className="team-content">
             <h1 className="professional-services-prepared1">
-              Professional services Prepared to be your lawyer Firm
+              {translations[language].teamProfessionalServices}
             </h1>
           </div>
         </div>

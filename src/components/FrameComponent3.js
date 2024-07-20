@@ -1,15 +1,19 @@
 import FrameComponent4 from "./FrameComponent4";
 import PropTypes from "prop-types";
 import "./FrameComponent3.css";
+import { useLanguage } from '../context/LanguageContext';
+import translations from '../utils/translations';
 
 const FrameComponent3 = ({ className = "" }) => {
+  const { language } = useLanguage();
+
   return (
     <div className={`frame-wrapper5 ${className}`}>
       <div className="case-list-header-content-parent">
         <div className="case-list-header-content">
-          <div className="cases1">Cases</div>
+          <div className="cases1">{translations[language].cases}</div>
           <div className="we-have-handled">
-            We have handled cases from some of our clients
+            {translations[language].successHandledCases}
           </div>
         </div>
         <div className="frame-parent14">
@@ -26,7 +30,7 @@ const FrameComponent3 = ({ className = "" }) => {
           </div>
           <div className="case-link">
             <div className="more-cases">
-              <div className="see-more">See more</div>
+              <div className="see-more">{translations[language].seeMore}</div>
               <img
                 className="arrow-right-34"
                 loading="lazy"

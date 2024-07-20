@@ -2,41 +2,45 @@ import NameEmailLabels from "./NameEmailLabels";
 import Message from "./Message";
 import PropTypes from "prop-types";
 import "./FrameComponent1.css";
+import { useLanguage } from '../context/LanguageContext';
+import translations from '../utils/translations';
 
 const FrameComponent1 = ({ className = "" }) => {
+  const { language } = useLanguage();
+
   return (
     <section className={`contact-container-wrapper ${className}`}>
       <div className="contact-container">
         <div className="contact-form">
           <div className="form-fields">
-            <h1 className="get-in-touch">Get In touch</h1>
+            <h1 className="get-in-touch">{translations[language].getInTouch}</h1>
             <div className="input-fields1">
               <div className="name-inputs">
                 <NameEmailLabels
-                  yourName="First Name*"
-                  enterYourNamePlaceholder="Enter first name"
+                  yourName={translations[language].firstName}
+                  enterYourNamePlaceholder={translations[language].enterFirstNamePlaceholder}
                   propMinWidth="240px"
                 />
                 <NameEmailLabels
-                  yourName="Last Name*"
-                  enterYourNamePlaceholder="Enter last name"
+                  yourName={translations[language].lastName}
+                  enterYourNamePlaceholder={translations[language].enterLastNamePlaceholder}
                   propMinWidth="240px"
                 />
               </div>
               <div className="name-inputs1">
                 <NameEmailLabels
-                  yourName="Your Phone*"
-                  enterYourNamePlaceholder="Enter your phone"
+                  yourName={translations[language].phone}
+                  enterYourNamePlaceholder={translations[language].enterPhonePlaceholder}
                   propMinWidth="240px"
                 />
                 <NameEmailLabels
-                  yourName="Your Email*"
+                  yourName={translations[language].email}
                   enterYourNamePlaceholder="Enter your email"
                   propMinWidth="240px"
                 />
               </div>
               <button className="submit-button1">
-                <div className="send-message">Done</div>
+                <div className="send-message">{translations[language].done}</div>
               </button>
             </div>
           </div>
@@ -88,7 +92,7 @@ const FrameComponent1 = ({ className = "" }) => {
           <div className="contact-info6">
             <img className="time-square-icon" alt="" src="./pearsonhardman2/time-square.svg" />
             <div className="am-0900-pm-wrapper">
-              <div className="am-0900">07.00 am - 09.00 pm</div>
+              <div className="am-0900">{translations[language].officeHoursTime}</div>
             </div>
           </div>
         </div>

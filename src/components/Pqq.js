@@ -1,9 +1,12 @@
 import PropTypes from "prop-types";
 import { useNavigate } from "react-router-dom";
 import "./Pqq.css";
+import { useLanguage } from '../context/LanguageContext';
+import translations from '../utils/translations';
 
 const Pqq = ({ className = "" }) => {
   const navigate = useNavigate();
+  const { language } = useLanguage();
 
   const handleButtonClick = () => {
     navigate("/appointment");
@@ -15,13 +18,15 @@ const Pqq = ({ className = "" }) => {
       <div className="testimonial-content1">
         <div className="testimonial-quote">
           <div className="we-help-you-with-quality-legal-wrapper">
-            <h1 className="we-help-you1">Book An Appointment</h1>
+            <h1 className="we-help-you1">{translations[language].bookAnAppointment}</h1>
           </div>
-          <div className="lorem-ipsum-dolor9">{`Don't let the worst come to worst, click the button below to book a consultation now!`}</div>
+          <div className="lorem-ipsum-dolor9">
+            {translations[language].dontLetWorst}
+          </div>
         </div>
         <div className="testimonial-button">
           <button className="button-content" onClick={handleButtonClick}>
-            <div className="get-started2">Book An Appointment</div>
+            <div className="get-started2">{translations[language].bookAnAppointment}</div>
           </button>
         </div>
       </div>

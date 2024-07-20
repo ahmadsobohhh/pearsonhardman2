@@ -1,7 +1,11 @@
 import PropTypes from "prop-types";
 import "./FrameComponent6.css";
+import { useLanguage } from '../context/LanguageContext';
+import translations from '../utils/translations';
 
 const FrameComponent6 = ({ className = "" }) => {
+  const { language } = useLanguage();
+
   return (
     <section className={`services-wrapper ${className}`}>
       <div className="services">
@@ -15,14 +19,16 @@ const FrameComponent6 = ({ className = "" }) => {
               src="./pearsonhardman2/mask-group-2@2x.png"
             />
             <div className="professional-services-prepared">
-              Professional services Prepared to be your lawyer Firm
+              {translations[language].professionalServicesPrepared}
             </div>
           </div>
         </div>
         <div className="frame-parent8">
           <div className="service-option-row-parent">
             <div className="service-option-row">
-              <div className="education-lawyer">{`Education Lawyer & Consultation`}</div>
+              <div className="education-lawyer">
+                {translations[language].teamProfessionalServices}
+              </div>
             </div>
             <img
               className="arrow-right-3"
@@ -34,7 +40,7 @@ const FrameComponent6 = ({ className = "" }) => {
           <img className="frame-child1" alt="" src="./vector-3-1.svg" />
           <div className="frame-parent9">
             <div className="business-law-wrapper">
-              <div className="business-law">Business Law</div>
+              <div className="business-law">{translations[language].teamProfessionalServices}</div>
             </div>
             <img
               className="arrow-right-31"
@@ -46,7 +52,7 @@ const FrameComponent6 = ({ className = "" }) => {
           <img className="frame-child2" alt="" src="./pearsonhardman2/vector-3-1.svg" />
           <div className="frame-parent10">
             <div className="education-lawyer-consultatio-wrapper">
-              <div className="education-lawyer1">{`Education Lawyer & Consultation`}</div>
+              <div className="education-lawyer1">{translations[language].teamProfessionalServices}</div>
             </div>
             <img
               className="arrow-right-32"
@@ -59,7 +65,7 @@ const FrameComponent6 = ({ className = "" }) => {
           <img className="frame-child3" alt="" src="./pearsonhardman2/vector-3-1.svg" />
           <div className="frame-parent11">
             <div className="business-law-container">
-              <div className="business-law1">Business Law</div>
+              <div className="business-law1">{translations[language].teamProfessionalServices}</div>
             </div>
             <img
               className="arrow-right-33"

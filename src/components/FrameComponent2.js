@@ -1,6 +1,8 @@
 import { useMemo } from "react";
 import PropTypes from "prop-types";
 import "./FrameComponent2.css";
+import { useLanguage } from '../context/LanguageContext';
+import translations from '../utils/translations';
 
 const FrameComponent2 = ({
   className = "",
@@ -13,6 +15,8 @@ const FrameComponent2 = ({
       height: propHeight,
     };
   }, [propHeight]);
+
+  const { language } = useLanguage();
 
   return (
     <div className={`mask-group-parent2 ${className}`} style={frameDiv1Style}>
@@ -27,7 +31,7 @@ const FrameComponent2 = ({
           <h1 className="laitman-harry">{laitmanHarry}</h1>
           <div className="senior-business-lawyer-wrapper">
             <div className="senior-business-lawyer2">
-              Senior Business Lawyer
+              {translations[language].teamProfessionalServices}
             </div>
           </div>
         </div>
