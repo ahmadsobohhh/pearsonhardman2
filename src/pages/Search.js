@@ -1,6 +1,7 @@
 import PropTypes from "prop-types";
 import { useState } from "react";
 import styles from "./Search.module.css"; // Import the CSS Module
+import Footer from "../components/Footer"; // Import the Footer component
 
 const Dropdown = ({ label, options, onChange, name }) => (
   <div className={styles.dropdown}>
@@ -124,6 +125,7 @@ const FacetedSearch = ({ className = "" }) => {
           </ul>
         </div>
       )}
+      <Footer /> {/* Ensure the footer is outside of the form and main content */}
     </div>
   );
 };

@@ -2,6 +2,7 @@ import Hero from "../components/Hero";
 import Team from "../components/Team";
 import Pqq from "../components/Pqq";
 import "./Lawyer.css";
+import Footer from "../components/Footer";
 
 const Lawyer = () => {
   return (
@@ -13,6 +14,7 @@ const Lawyer = () => {
       />
       <Team />
       <Pqq />
+      <Footer> </Footer>
     </div>
   );
 };

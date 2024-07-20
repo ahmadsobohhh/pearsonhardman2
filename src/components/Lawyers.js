@@ -49,11 +49,11 @@ const Lawyers = ({ className = "" }) => {
           </div>
           <div className="news-grid">
             <NewsItems
-              maskGroup="./mask-group-9@2x.png"
+              maskGroup="./pearsonhardman2/mask-group-9@2x.png"
               nadaGeomorgant="Nada Geoant"
             />
             <NewsItems
-              maskGroup="./mask-group-10@2x.png"
+              maskGroup="./pearsonhardman2/mask-group-10@2x.png"
               nadaGeomorgant="Desy Willy"
               propHeight="602px"
             />
@@ -74,9 +74,9 @@ const Lawyers = ({ className = "" }) => {
       </div>
       <div className="success-stories">
         <div className="success-stories-container">
-          <SuccessStoryItems maskGroup="/mask-group-11@2x.png" />
+          <SuccessStoryItems maskGroup="./pearsonhardman2/mask-group-11@2x.png" />
           <SuccessStoryItems
-            maskGroup="/mask-group-12@2x.png"
+            maskGroup="./pearsonhardman2/mask-group-12@2x.png"
             propPadding="unset"
           />
         </div>

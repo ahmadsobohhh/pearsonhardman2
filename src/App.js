@@ -78,7 +78,6 @@ function App() {
           <Route path="/lawyer" element={<Lawyer />} />
           <Route path="/search" element={<Search />} />
         </Routes>
-        <Footer />
       </div>
     </LanguageProvider>
   );

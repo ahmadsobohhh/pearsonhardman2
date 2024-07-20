@@ -35,7 +35,7 @@ const FrameComponent5 = ({ className = "" }) => {
             <div className="frame-parent13">
               <div className="parent">
                 <div className="lorem-ipsum-dolor1">
-                  Pearson Hardman defended my trillion dollar corporation against numerous false allegations that would have destroyed my company. I would recommend them and stay with them for as long as my career goes on.
+                  {translations[language].testimonialText}
                 </div>
               </div>
               <div className="johnatan-g-parent">

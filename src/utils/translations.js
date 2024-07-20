@@ -21,8 +21,8 @@ const translations = {
       cases: "Cases",
       seeMore: "See more",
       ourPartnership: "Our Partnership",
-      professionalServicesPrepared: "Professional services Prepared to be your lawyer Firm",
-      teamProfessionalServices: "Professional services Prepared to be your lawyer Firm",
+      professionalServicesPrepared: "Check out our lawyers! Click the Lawyer Tab!",
+      teamProfessionalServices: "Our uOttawa Educated Lawyer",
       readNow: "Read now",
       getMessage: "Message",
       enterMessagePlaceholder: "Enter your message",
@@ -69,6 +69,7 @@ const translations = {
       search: "Search",
       ourLawyers: "Our Lawyers",
       contactUsLink: "Contact Us",
+      testimonialText: "Pearson Hardman defended my trillion dollar corporation against numerous false allegations that would have destroyed my company. I would recommend them and stay with them for as long as my career goes on.",
       toggleLanguage: "FR",
     },
     fr: {
@@ -141,6 +142,7 @@ const translations = {
       search: "Recherche",
       ourLawyers: "Nos avocats",
       contactUsLink: "Contactez-nous",
+      testimonialText: "Pearson Hardman a défendu ma société de plusieurs billions de dollars contre de nombreuses fausses allégations qui auraient détruit mon entreprise. Je les recommanderais et resterais avec eux aussi longtemps que ma carrière se poursuivra.",
       toggleLanguage: "EN",
     }
   };

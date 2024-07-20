@@ -11,6 +11,7 @@ import SuccessStoryItems from "../components/SuccessStoryItems";
 import "./Homepage.css";
 import { useLanguage } from '../context/LanguageContext';
 import translations from '../utils/translations';
+import Footer from "../components/Footer";
 
 const Homepage = () => {
   const { language } = useLanguage();
@@ -75,6 +76,7 @@ const Homepage = () => {
           </div>
         </div>
       </section>
+      <Footer />
     </div>
   );
 };

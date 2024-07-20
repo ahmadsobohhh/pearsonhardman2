@@ -1,5 +1,6 @@
 import { useLocation } from "react-router-dom";
 import "./AppointmentConfirmation.css";
+import Footer from "../components/Footer";
 
 const AppointmentConfirmation = () => {
   const { state } = useLocation();
@@ -17,6 +18,7 @@ const AppointmentConfirmation = () => {
         <p><strong>Lawyer:</strong> {lawyer}</p>
         <p><strong>Message:</strong> {message}</p>
       </div>
+      <Footer />
     </div>
   );
 };

@@ -1,6 +1,8 @@
 import Hero from "../components/Hero";
 import FrameComponent1 from "../components/FrameComponent1";
 import "./ContactUs.css";
+import Footer from "../components/Footer";
+
 
 const ContactUs = () => {
   return (
@@ -11,6 +13,7 @@ const ContactUs = () => {
         heroShape="./pearsonhardman2/vector-18.svg"
       />
       <FrameComponent1 />
+      <Footer />
     </div>
   );
 };
