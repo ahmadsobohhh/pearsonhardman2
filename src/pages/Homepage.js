@@ -25,7 +25,7 @@ const Homepage = () => {
               className="mask-group-icon"
               loading="lazy"
               alt="statue golden icon"
-              src="./pearsonhardman2/mask-group@2x.png"
+              src="./pearsonhardman2/g22.svg"
             />
             <div className="uphold-your-justice-container">
               <span>{translations[language].welcomeMessage}</span>
