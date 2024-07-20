@@ -11,12 +11,6 @@ const FrameComponent10 = ({ className = "" }) => {
     <header className={`frame-header ${className}`}>
       <div className="frame-parent4">
         <div className="path28-parent">
-          <img
-            className="path28-icon"
-            loading="lazy"
-            alt="path icon"
-            src="/pearsonhardman2/path28.svg"
-          />
           <div className="pearson-hardman-wrapper">
             <Link to="/" className="pearson-hardman1">Pearson Hardman</Link>
           </div>
