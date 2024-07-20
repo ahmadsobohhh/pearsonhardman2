@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 import React from 'react';
-import "./Footer.css";
 import { useLanguage } from '../context/LanguageContext';
+import "./Footer.css";
 import translations from '../utils/translations';
 
 const Footer = ({ className = "" }) => {
