@@ -18,13 +18,13 @@ const FrameComponent7 = ({ className = "" }) => {
             <img
               className="daerazo-icon"
               loading="lazy"
-              alt=""
+              alt="icon of man"
               src="./pearsonhardman2/daerazo.svg"
             />
             <div className="daerazo">Daerazo</div>
           </div>
         </div>
-        <img className="frame-item" loading="lazy" alt="" src="./pearsonhardman2/vector-3.svg" />
+        <img className="frame-item" loading="lazy" alt="frame" src="./pearsonhardman2/vector-3.svg" />
         <FrameComponent8 group2="./pearsonhardman2/group-2.svg" miguxian="Miguxian" />
         <img
           className="frame-inner"

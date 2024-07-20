@@ -15,7 +15,7 @@ const FrameComponent6 = ({ className = "" }) => {
             <img
               className="mask-group-icon2"
               loading="lazy"
-              alt=""
+              alt="gavel"
               src="./pearsonhardman2/mask-group-2@2x.png"
             />
             <div className="professional-services-prepared">
@@ -33,11 +33,11 @@ const FrameComponent6 = ({ className = "" }) => {
             <img
               className="arrow-right-3"
               loading="lazy"
-              alt=""
+              alt="arrow right"
               src="./pearsonhardman2/arrow--right-3.svg"
             />
           </div>
-          <img className="frame-child1" alt="" src="./vector-3-1.svg" />
+          <img className="frame-child1" alt="vector" src="./pearsonhardman2/vector-3-1.svg" />
           <div className="frame-parent9">
             <div className="business-law-wrapper">
               <div className="business-law">{translations[language].teamProfessionalServices}</div>
@@ -45,11 +45,11 @@ const FrameComponent6 = ({ className = "" }) => {
             <img
               className="arrow-right-31"
               loading="lazy"
-              alt=""
+              alt="arrow right"
               src="./pearsonhardman2/arrow--right-3.svg"
             />
           </div>
-          <img className="frame-child2" alt="" src="./pearsonhardman2/vector-3-1.svg" />
+          <img className="frame-child2" alt="vector" src="./pearsonhardman2/vector-3-1.svg" />
           <div className="frame-parent10">
             <div className="education-lawyer-consultatio-wrapper">
               <div className="education-lawyer1">{translations[language].teamProfessionalServices}</div>
@@ -57,12 +57,12 @@ const FrameComponent6 = ({ className = "" }) => {
             <img
               className="arrow-right-32"
               loading="lazy"
-              alt=""
+              alt="arrow right"
               src="
               ./pearsonhardman2/arrow--right-3.svg"
             />
           </div>
-          <img className="frame-child3" alt="" src="./pearsonhardman2/vector-3-1.svg" />
+          <img className="frame-child3" alt="vector" src="./pearsonhardman2/vector-3-1.svg" />
           <div className="frame-parent11">
             <div className="business-law-container">
               <div className="business-law1">{translations[language].teamProfessionalServices}</div>
@@ -70,7 +70,7 @@ const FrameComponent6 = ({ className = "" }) => {
             <img
               className="arrow-right-33"
               loading="lazy"
-              alt=""
+              alt="arrow right"
               src="./pearsonhardman2/arrow--right-3.svg"
             />
           </div>

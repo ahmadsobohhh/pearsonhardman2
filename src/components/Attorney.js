@@ -12,7 +12,7 @@ const Attorney = ({ className = "" }) => {
         <img
           className="mask-group-icon7"
           loading="lazy"
-          alt=""
+          alt="weight scale image"
           src="./pearsonhardman2/mask-group-7@2x.png"
         />
         <div className="attorney-content">
@@ -25,7 +25,7 @@ const Attorney = ({ className = "" }) => {
             <img
               className="experience-icon"
               loading="lazy"
-              alt=""
+              alt="experience-icon"
               src="./pearsonhardman2/vector-12.svg"
             />
             <div className="stats">
@@ -35,7 +35,7 @@ const Attorney = ({ className = "" }) => {
                     <img
                       className="tick-square-icon"
                       loading="lazy"
-                      alt=""
+                      alt="tick squared icon"
                       src="./pearsonhardman2/tick-square.svg"
                     />
                   </div>
@@ -48,7 +48,7 @@ const Attorney = ({ className = "" }) => {
                     <img
                       className="tick-square-icon1"
                       loading="lazy"
-                      alt=""
+                      alt="tick square icon"
                       src="./pearsonhardman2/tick-square.svg"
                     />
                   </div>
@@ -61,7 +61,7 @@ const Attorney = ({ className = "" }) => {
                     <img
                       className="tick-square-icon2"
                       loading="lazy"
-                      alt=""
+                      alt="tick square icon"
                       src="./pearsonhardman2/tick-square.svg"
                     />
                   </div>
@@ -74,7 +74,7 @@ const Attorney = ({ className = "" }) => {
                     <img
                       className="tick-square-icon3"
                       loading="lazy"
-                      alt=""
+                      alt="tick square icon"
                       src="./pearsonhardman2/tick-square.svg"
                     />
                   </div>

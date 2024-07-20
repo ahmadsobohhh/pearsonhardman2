@@ -12,11 +12,11 @@ const FrameComponent9 = ({ className = "" }) => {
         <img
           className="mask-group-icon1"
           loading="lazy"
-          alt=""
+          alt="silver scale statue"
           src="./pearsonhardman2/mask-group-1@2x.png"
         />
       </div>
-      <img className="frame-child" loading="lazy" alt="" src="./pearsonhardman2/vector-2.svg" />
+      <img className="frame-child" loading="lazy" alt="vector2" src="./pearsonhardman2/vector-2.svg" />
       <div className="frame-wrapper2">
         <div className="about-us-parent">
           <div className="about-us">{translations[language].aboutUs}</div>

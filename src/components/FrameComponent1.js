@@ -77,7 +77,7 @@ const FrameComponent1 = ({ className = "" }) => {
             <img
               className="map-maker-ottawa-ontario-ca"
               loading="lazy"
-              alt=""
+              alt="map of ottawa"
               src="./pearsonhardman2/-map-maker-ottawa-ontario-canada-aubergine@2x.png"
             />
           </div>
@@ -87,7 +87,7 @@ const FrameComponent1 = ({ className = "" }) => {
             <img
               className="call-icon1"
               loading="lazy"
-              alt=""
+              alt="call icon"
               src="./pearsonhardman2/call1.svg"
             />
             <div className="contact-values-wrapper">
@@ -98,7 +98,7 @@ const FrameComponent1 = ({ className = "" }) => {
             <img
               className="location-icon1"
               loading="lazy"
-              alt=""
+              alt="location icon"
               src="./pearsonhardman2/location1.svg"
             />
             <div className="uottawa-rd-on-k2r-0a1-wrapper">
@@ -109,7 +109,7 @@ const FrameComponent1 = ({ className = "" }) => {
             <img
               className="message-icon1"
               loading="lazy"
-              alt=""
+              alt="message icon"
               src="./pearsonhardman2/message1.svg"
             />
             <div className="pearsonhardmandomaincom-wrapper">
@@ -119,7 +119,7 @@ const FrameComponent1 = ({ className = "" }) => {
             </div>
           </div>
           <div className="contact-info6">
-            <img className="time-square-icon" alt="" src="./pearsonhardman2/time-square.svg" />
+            <img className="time-square-icon" alt="time icon" src="./pearsonhardman2/time-square.svg" />
             <div className="am-0900-pm-wrapper">
               <div className="am-0900">{translations[language].officeHoursTime}</div>
             </div>

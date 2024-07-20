@@ -15,7 +15,7 @@ const FrameComponent5 = ({ className = "" }) => {
             <img
               className="mask-group-icon3"
               loading="lazy"
-              alt=""
+              alt="marble pillars"
               src="./pearsonhardman2/mask-group-3@2x.png"
             />
             <div className="our-happy-client-container">
@@ -28,7 +28,7 @@ const FrameComponent5 = ({ className = "" }) => {
           <img
             className="mask-group-icon4"
             loading="lazy"
-            alt=""
+            alt="smiling man"
             src="./pearsonhardman2/mask-group-4@2x.png"
           />
           <div className="testimonial-content-inner">
@@ -45,18 +45,18 @@ const FrameComponent5 = ({ className = "" }) => {
                     <img
                       className="star-icon"
                       loading="lazy"
-                      alt=""
+                      alt="star icon"
                       src="./pearsonhardman2/star.svg"
                     />
                     <img
                       className="star-icon1"
                       loading="lazy"
-                      alt=""
+                      alt="star icon"
                       src="./pearsonhardman2/star.svg"
                     />
-                    <img className="star-icon2" alt="" src="./pearsonhardman2/star.svg" />
-                    <img className="star-icon3" alt="" src="./pearsonhardman2/star.svg" />
-                    <img className="star-icon4" alt="" src="./pearsonhardman2/star-4.svg" />
+                    <img className="star-icon2" alt="star" src="./pearsonhardman2/star.svg" />
+                    <img className="star-icon3" alt="star" src="./pearsonhardman2/star.svg" />
+                    <img className="star-icon4" alt="star" src="./pearsonhardman2/star-4.svg" />
                   </div>
                 </div>
                 <div className="reviewed">

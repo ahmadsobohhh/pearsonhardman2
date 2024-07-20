@@ -14,7 +14,7 @@ const FrameComponent10 = ({ className = "" }) => {
           <img
             className="path28-icon"
             loading="lazy"
-            alt=""
+            alt="path icon"
             src="./pearsonhardman2/path28.svg"
           />
           <div className="pearson-hardman-wrapper">

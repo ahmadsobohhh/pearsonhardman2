@@ -18,7 +18,7 @@ const Hero = ({ className = "", image66, aboutUs, heroShape }) => {
         <img
           className="hero-shape-icon"
           loading="lazy"
-          alt=""
+          alt="hero icon"
           src={"./pearsonhardman2/heroShape"}
         />
         <div className="hero-description">

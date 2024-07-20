@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import NameEmailLabels from "./NameEmailLabels";
 import ServiceLawyer from "./ServiceLawyer";
@@ -21,6 +21,8 @@ const FrameComponent = ({ className = "" }) => {
     message: ""
   });
 
+  const [error, setError] = useState("");
+
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData((prevData) => ({
@@ -31,8 +33,26 @@ const FrameComponent = ({ className = "" }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    if (!formData.name || !formData.email || !formData.phone || !formData.services || !formData.date || !formData.lawyer) {
+      setError(translations[language].fillOutProperly);
+      return;
+    }
+    setError("");
     navigate("/appointment-confirmation", { state: formData });
   };
+
+  useEffect(() => {
+    const handleKeyDown = (event) => {
+      if (event.ctrlKey && event.key === 'Enter') {
+        handleSubmit(event);
+      }
+    };
+
+    document.addEventListener('keydown', handleKeyDown);
+    return () => {
+      document.removeEventListener('keydown', handleKeyDown);
+    };
+  }, [formData]);
 
   return (
     <section className={`appointment-content-wrapper ${className}`}>
@@ -87,6 +107,7 @@ const FrameComponent = ({ className = "" }) => {
               />
             </div>
             <Message handleChange={handleChange} name="message" />
+            {error && <div className="error-message" style={{ color: 'red' }}>{error}</div>}
             <button className="submit-button" type="submit">
               <div className="make-appointment">{translations[language].bookAnAppointment}</div>
             </button>
