@@ -91,6 +91,16 @@ const FacetedSearch = ({ className = "" }) => {
   return (
     <div className={`${styles.facetedSearch} ${className}`}>
       <h1 className={styles.searchTitle}>Find a Lawyer</h1>
+      <div className={styles.instructions}>
+        <h3>To find the best lawyer for your needs, please follow these steps:</h3>
+        <ol>
+          <li>Select the number of years of practice using the dropdown menu.</li>
+          <li>Choose the area of law expertise that best suits your case.</li>
+          <li>Select your location to find lawyers available in your area.</li>
+          <li>Pick the graduation school of the lawyers to filter by their education background.</li>
+          <li>Click the "Search" button to see the results that match your criteria.</li>
+        </ol>
+      </div>
       <form className={styles.searchForm} onSubmit={handleSearch}>
         <Dropdown label="Years of Practice" name="yearsOfPractice" options={yearsOfPracticeOptions} onChange={handleFilterChange} />
         <Dropdown label="Law Expertise" name="lawExpertise" options={lawExpertiseOptions} onChange={handleFilterChange} />
