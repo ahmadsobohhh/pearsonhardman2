@@ -1,3 +1,4 @@
+import { useState } from "react";
 import NameEmailLabels from "./NameEmailLabels";
 import Message from "./Message";
 import PropTypes from "prop-types";
@@ -7,11 +8,31 @@ import translations from '../utils/translations';
 
 const FrameComponent1 = ({ className = "" }) => {
   const { language } = useLanguage();
+  const [formData, setFormData] = useState({
+    firstName: "",
+    lastName: "",
+    phone: "",
+    email: "",
+  });
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData((prevData) => ({
+      ...prevData,
+      [name]: value,
+    }));
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    alert(`Form submitted with data: ${JSON.stringify(formData)}`);
+    // Add your form submission logic here
+  };
 
   return (
     <section className={`contact-container-wrapper ${className}`}>
       <div className="contact-container">
-        <div className="contact-form">
+        <form className="contact-form" onSubmit={handleSubmit}>
           <div className="form-fields">
             <h1 className="get-in-touch">{translations[language].getInTouch}</h1>
             <div className="input-fields1">
@@ -20,11 +41,15 @@ const FrameComponent1 = ({ className = "" }) => {
                   yourName={translations[language].firstName}
                   enterYourNamePlaceholder={translations[language].enterFirstNamePlaceholder}
                   propMinWidth="240px"
+                  handleChange={handleChange}
+                  name="firstName"
                 />
                 <NameEmailLabels
                   yourName={translations[language].lastName}
                   enterYourNamePlaceholder={translations[language].enterLastNamePlaceholder}
                   propMinWidth="240px"
+                  handleChange={handleChange}
+                  name="lastName"
                 />
               </div>
               <div className="name-inputs1">
@@ -32,14 +57,18 @@ const FrameComponent1 = ({ className = "" }) => {
                   yourName={translations[language].phone}
                   enterYourNamePlaceholder={translations[language].enterPhonePlaceholder}
                   propMinWidth="240px"
+                  handleChange={handleChange}
+                  name="phone"
                 />
                 <NameEmailLabels
                   yourName={translations[language].email}
                   enterYourNamePlaceholder="Enter your email"
                   propMinWidth="240px"
+                  handleChange={handleChange}
+                  name="email"
                 />
               </div>
-              <button className="submit-button1">
+              <button className="submit-button1" type="submit">
                 <div className="send-message">{translations[language].done}</div>
               </button>
             </div>
@@ -52,7 +81,7 @@ const FrameComponent1 = ({ className = "" }) => {
               src="./pearsonhardman2/-map-maker-ottawa-ontario-canada-aubergine@2x.png"
             />
           </div>
-        </div>
+        </form>
         <div className="contact-details1">
           <div className="contact-info3">
             <img
